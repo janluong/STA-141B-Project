@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="" />
+    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="Created queries for given questions">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/STA-141B-Project.iml" afterPath="$PROJECT_DIR$/.idea/STA-141B-Project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/STA-141B-Project$db_connect.coverage" NAME="db_connect Coverage Results" MODIFIED="1487749243362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/STA-141B-Project$db_builder.coverage" NAME="db_builder Coverage Results" MODIFIED="1486364914618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -32,9 +38,28 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+                <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+                <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+                <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+                <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+                <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+                <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+                <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+                <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+                <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+                <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+                <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -64,6 +89,11 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,13 +112,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -102,6 +132,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="STA-141B-Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,32 +159,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="STA-141B-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="STA-141B-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11/mingw32/bin/git.exe" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
   </component>
-  <component name="RunManager" selected="Python.db_builder">
+  <component name="RunManager" selected="Python.db_connect">
     <configuration default="false" name="db_builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,6 +184,24 @@
       <module name="STA-141B-Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\shavedkiwi\Documents\GitHub\STA-141B-Project\db_connect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db_connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="STA-141B-Project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -373,12 +420,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.db_builder" />
+      <item index="1" class="java.lang.String" itemvalue="Python.db_connect" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.db_builder" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.db_connect" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db_builder" />
       </list>
     </recent_temporary>
   </component>
@@ -405,16 +454,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="20" width="1400" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957748" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34203655" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -439,12 +488,214 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysql core/stats.sql">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -452,9 +703,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql core/stats.sql">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
@@ -473,10 +875,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysql core/stats.sql" />
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql core/stats.sql" />
+    <entry file="file://C:/JANICE/Job Hunting/SF City and County Transport/Data/readData.py" />
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1487749243352" expanded="true" signature="184:218" ph="SELECT playe... Master" />
+            <marker date="1487749243352" expanded="true" signature="184:223" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:235" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:236" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:241" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:257" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="184:304" ph="SELECT WSWin... Teams" />
+            <marker date="1487749243352" expanded="true" signature="388:448" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="388:457" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="597:656" ph="SELECT DivWi... Teams" />
+            <marker date="1487749243352" expanded="true" signature="802:883" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="956:1037" ph="SELECT teamI... Teams" />
+            <marker date="1487749243352" expanded="true" signature="1188:1300" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1378:1413" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1378:1424" ph="DELETE FROM " />
+            <marker date="1487749243352" expanded="true" signature="1453:1545" ph="SELECT playe... Batting" />
+            <marker date="1487749243352" expanded="true" signature="1453:1554" ph="SELECT playe... Batting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="105" lean-forward="false" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
