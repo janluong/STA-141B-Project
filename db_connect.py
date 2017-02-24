@@ -5,11 +5,11 @@ import pandas as pd
 baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 
 # Who won the World Series for each year?
-WSWinners = pd.read_sql_query("SELECT teamID, yearID, WSWin from Teams WHERE WSWin = 'Y' GROUP BY yearID"
+WSWinners = pd.read_sql_query("SELECT teamID, yearID, WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
 
 # Who had the most hits in a given season?
-player_most_hits =  pd.read_sql_query("SELECT playerID, yearID, MAX(H) from Batting GROUP BY yearID LIMIT 20"
+player_most_hits =  pd.read_sql_query("SELECT playerID, yearID, MAX(H) from Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 20"
                                       , baseball_con)
 
 # Who were the AL and NL winners for each year?
