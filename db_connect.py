@@ -28,3 +28,4 @@ print pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of H
 worst_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'num_hits' FROM Batting WHERE H IS NOT NULL  AND (yearID > 2005 AND yearID < 2016)GROUP BY playerID ORDER BY SUM(H) LIMIT 20"
                                      , baseball_con)
 
+# Test Change
