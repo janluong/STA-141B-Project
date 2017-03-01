@@ -23,8 +23,28 @@ min_HR = pd.read_sql_query("SELECT teamID, yearID, MIN(HR) as 'Home Runs' FROM T
                            , baseball_con)
 
 # Find the 20 best hitters and 20 worst hitters in all of baseball.
-print pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of Hits' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SUM(H) DESC LIMIT 20"
+best_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of Hits' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SUM(H) DESC LIMIT 20"
                                     , baseball_con)
 worst_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'num_hits' FROM Batting WHERE H IS NOT NULL  AND (yearID > 2005 AND yearID < 2016)GROUP BY playerID ORDER BY SUM(H) LIMIT 20"
                                      , baseball_con)
+
+# For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
+# Find the percentage of fastballs for each player.
+most_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MAX(SO) FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
+                        , baseball_con)
+
+least_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MIN(SO) FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
+                                     , baseball_con)
+
+# Which teams had the most amount of  stolen bases in a given season?
+most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                            , baseball_con)
+
+# What team pitch the most strike outs for the season?
+max_SOA = pd.read_sql_query("SELECT MAX(SOA), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                            , baseball_con)
+
+# Who were the top players had the most home runs in the a given season?
+top_player_HR = pd.read_sql_query("SELECT MAX(HR), teamID, playerID, yearID FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                                  , baseball_con)
 
