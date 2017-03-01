@@ -28,7 +28,23 @@ best_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 
 worst_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'num_hits' FROM Batting WHERE H IS NOT NULL  AND (yearID > 2005 AND yearID < 2016)GROUP BY playerID ORDER BY SUM(H) LIMIT 20"
                                      , baseball_con)
 
-# Which teams had the most and least amount of  stolen bases at 2nd and 3rd base in a given season?
-# On average, how successful is the stolen base strategy (ie resulted in a home run)?
-print pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+# For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
+# Find the percentage of fastballs for each player.
+most_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MAX(SO) FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
                         , baseball_con)
+
+least_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MIN(SO) FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
+                                     , baseball_con)
+
+# Which teams had the most amount of  stolen bases in a given season?
+most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                            , baseball_con)
+
+# What team pitch the most strike outs for the season?
+max_SOA = pd.read_sql_query("SELECT MAX(SOA), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                            , baseball_con)
+
+# Who were the top players had the most home runs in the a given season?
+top_player_HR = pd.read_sql_query("SELECT MAX(HR), teamID, playerID, yearID FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                                  , baseball_con)
+
