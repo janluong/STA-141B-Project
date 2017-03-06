@@ -273,7 +273,7 @@ Teams who had the least homeruns:
   </tbody>
 </table>
 
-
+<img src="img/teams-least-homeruns.png">
 
 
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
