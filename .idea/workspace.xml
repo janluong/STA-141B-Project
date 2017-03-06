@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -614,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488767172217</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added WS Winners Table">
+      <created>1488767479466</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1488767479466</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -665,7 +671,8 @@
     <MESSAGE value="Added new queries and website title" />
     <MESSAGE value="Playing around with layout and README" />
     <MESSAGE value="Edit README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit README" />
+    <MESSAGE value="Added WS Winners Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added WS Winners Table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
