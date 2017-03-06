@@ -1,6 +1,6 @@
 ---
 title: This is my title
-layout: post
+layout: default
 ---
 
 ## STA 141B Project

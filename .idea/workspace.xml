@@ -502,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488762969477</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Edit README">
+      <created>1488763154869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488763154869</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -551,7 +558,8 @@
     <MESSAGE value="Test push" />
     <MESSAGE value="Removed &quot;Hi&quot;" />
     <MESSAGE value="Added new queries and website title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new queries and website title" />
+    <MESSAGE value="Edit README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
