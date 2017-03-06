@@ -16,14 +16,17 @@ player_most_hits =  pd.read_sql_query("SELECT m.nameLast as 'Last Name', m.nameF
 print player_most_hits.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
-division_win =  pd.read_sql_query("SELECT DivWin, yearID, teamID FROM Teams WHERE DivWin = 'Y' AND (yearID > 2005 AND yearID < 2016)"
+division_win =  pd.read_sql_query("SELECT DivWin, yearID, teamID FROM Teams WHERE DivWin = 'Y' AND (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
                                   , baseball_con)
 
 # Which team had the most and least home runs in a given season?
-max_HR = pd.read_sql_query("SELECT teamID, yearID, MAX(HR) as 'Home Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+max_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(HR) as 'Home Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-min_HR = pd.read_sql_query("SELECT teamID, yearID, MIN(HR) as 'Home Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+print max_HR.to_html(index = False)
+
+min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(HR) as 'Home Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
+print min_HR.to_html(index = False)
 
 # Find the 20 best hitters and 20 worst hitters in all of baseball.
 best_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of Hits' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SUM(H) DESC LIMIT 20"
