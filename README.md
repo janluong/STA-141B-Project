@@ -1,5 +1,6 @@
 ## STA 141B Project
-Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
+
+Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyzed data from 2006 to 2016 because 2006 was the year after any names changes had happened (last name change was in 2005). We will primarily focus on the player’s and a little bit on team statistics (number of hits, pitches, etc...) so we can get an idea of how well a player and teams performs throughout the years and what kind of strategies are popular or successful among different teams.
 
 Here are the World Series Winners from 2006 to 2015
 
@@ -53,3 +54,8 @@ Here are the World Series Winners from 2006 to 2015
     </tr>
   </tbody>
 </table>
+
+
+
+
+Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
