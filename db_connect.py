@@ -7,6 +7,8 @@ baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 # Who won the World Series for each year?
 WSWinners = pd.read_sql_query("SELECT teamID, yearID, WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
+WSWinners_dropped = WSWinners.drop('WSWin', 1)
+print WSWinners_dropped.to_html(index = False)
 
 # Who had the most hits in a given season?
 player_most_hits =  pd.read_sql_query("SELECT playerID, yearID, MAX(H) from Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 20"
@@ -52,5 +54,5 @@ top_player_HR = pd.read_sql_query("SELECT MAX(HR), teamID, playerID, yearID FROM
 most_SB_given = pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.yearID, MAX(t.SB) FROM (SELECT playerID, teamID, SUM(SB) as SB, yearID FROM FieldingPost WHERE (yearID > 2005 AND yearID < 2016) AND SB IS NOT NULL GROUP BY playerID, yearID ORDER BY SUM(SB) DESC LIMIT 20) t LEFT JOIN Master m ON m.playerID = t.playerID GROUP BY yearID"
                                   , baseball_con)
 
-print pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.yearID, MIN(t.SB) FROM (SELECT playerID, teamID, SUM(SB) as SB, yearID FROM FieldingPost WHERE (yearID > 2005 AND yearID < 2016) AND SB IS NOT NULL GROUP BY playerID, yearID ORDER BY SUM(SB) DESC LIMIT 20) t LEFT JOIN Master m ON m.playerID = t.playerID GROUP BY yearID"
+least_SB_given = pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.yearID, MIN(t.SB) FROM (SELECT playerID, teamID, SUM(SB) as SB, yearID FROM FieldingPost WHERE (yearID > 2005 AND yearID < 2016) AND SB IS NOT NULL GROUP BY playerID, yearID ORDER BY SUM(SB) DESC LIMIT 20) t LEFT JOIN Master m ON m.playerID = t.playerID GROUP BY yearID"
                                   , baseball_con)
