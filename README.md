@@ -7,49 +7,49 @@ Here are the World Series Winners from 2006 to 2015
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th>teamID</th>
-      <th>yearID</th>
+      <th>Team</th>
+      <th>Year</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>SLN</td>
+      <td>St. Louis Cardinals</td>
       <td>2006</td>
     </tr>
     <tr>
-      <td>BOS</td>
+      <td>Boston Red Sox</td>
       <td>2007</td>
     </tr>
     <tr>
-      <td>PHI</td>
+      <td>Philadelphia Phillies</td>
       <td>2008</td>
     </tr>
     <tr>
-      <td>NYA</td>
+      <td>New York Yankees</td>
       <td>2009</td>
     </tr>
     <tr>
-      <td>SFN</td>
+      <td>San Francisco Giants</td>
       <td>2010</td>
     </tr>
     <tr>
-      <td>SLN</td>
+      <td>St. Louis Cardinals</td>
       <td>2011</td>
     </tr>
     <tr>
-      <td>SFN</td>
+      <td>San Francisco Giants</td>
       <td>2012</td>
     </tr>
     <tr>
-      <td>BOS</td>
+      <td>Boston Red Sox</td>
       <td>2013</td>
     </tr>
     <tr>
-      <td>SFN</td>
+      <td>San Francisco Giants</td>
       <td>2014</td>
     </tr>
     <tr>
-      <td>KCA</td>
+      <td>Kansas City Royals</td>
       <td>2015</td>
     </tr>
   </tbody>
@@ -206,6 +206,8 @@ Teams who had the most homeruns:
     </tr>
   </tbody>
 </table>
+
+<img src="img/Teams-most-homeruns.png">
 
 Teams who had the least homeruns:
 
