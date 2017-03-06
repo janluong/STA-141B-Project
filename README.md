@@ -4,7 +4,6 @@ Database downloaded from [jknecht baseball archive](https://github.com/jknecht/b
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>teamID</th>
       <th>yearID</th>
       <th>WSWin</th>
@@ -12,61 +11,51 @@ Database downloaded from [jknecht baseball archive](https://github.com/jknecht/b
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>SLN</td>
       <td>2006</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>BOS</td>
       <td>2007</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>PHI</td>
       <td>2008</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>3</th>
       <td>NYA</td>
       <td>2009</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>4</th>
       <td>SFN</td>
       <td>2010</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>5</th>
       <td>SLN</td>
       <td>2011</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>6</th>
       <td>SFN</td>
       <td>2012</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>7</th>
       <td>BOS</td>
       <td>2013</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>8</th>
       <td>SFN</td>
       <td>2014</td>
       <td>Y</td>
     </tr>
     <tr>
-      <th>9</th>
       <td>KCA</td>
       <td>2015</td>
       <td>Y</td>
