@@ -15,7 +15,7 @@ WSWinners_dropped = WSWinners.drop('WSWin', 1)
 # Who had the most hits in a given season?
 player_most_hits =  pd.read_sql_query("SELECT m.nameLast as 'Last Name', m.nameFirst as 'First Name', t.name as 'Team', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.yearID = t.yearID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
                                       , baseball_con)
-#print player_most_hits.to_html(index = False)
+print player_most_hits.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
 division_win =  pd.read_sql_query("SELECT DivWin, yearID, teamID FROM Teams WHERE DivWin = 'Y' AND (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
@@ -24,16 +24,24 @@ division_win =  pd.read_sql_query("SELECT DivWin, yearID, teamID FROM Teams WHER
 # Which team had the most and least home runs in a given season?
 max_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-#print max_HR.to_html(index = False)
+print max_HR.to_html(index = False)
 
-facets = sns.FacetGrid(max_HR, hue = "Team", size = 7.5)
-facets.map(plt.scatter, "Year", "Homeruns").add_legend()
+plt.rcParams['figure.figsize'] = (10, 10)
+sns.set(font_scale = 1.5)
+
+most_HR_plot = sns.FacetGrid(max_HR, hue = "Team", size = 8.5)
+most_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
 sns.plt.title('Teams with most Homeruns from 2006 to 2015')
 plt.show()
 
-min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(HR) as 'Home Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-#print min_HR.to_html(index = False)
+print min_HR.to_html(index = False)
+
+min_HR_plot = sns.FacetGrid(min_HR, hue = "Team", size = 8.5)
+min_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
+sns.plt.title('Teams with least Homeruns from 2006 to 2015')
+plt.show()
 
 # Find the 20 best hitters and 20 worst hitters in all of baseball.
 best_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of Hits' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SUM(H) DESC LIMIT 20"
