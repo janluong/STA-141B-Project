@@ -62,7 +62,6 @@ Who had the most hits in a given season?
     <tr style="text-align: right;">
       <th>Last Name</th>
       <th>First Name</th>
-      <th>Team</th>
       <th>Year</th>
       <th>Number of Hits</th>
     </tr>
@@ -71,70 +70,60 @@ Who had the most hits in a given season?
     <tr>
       <td>Suzuki</td>
       <td>Ichiro</td>
-      <td>Baltimore Orioles</td>
       <td>2006</td>
       <td>224</td>
     </tr>
     <tr>
       <td>Suzuki</td>
       <td>Ichiro</td>
-      <td>Baltimore Orioles</td>
       <td>2007</td>
       <td>238</td>
     </tr>
     <tr>
       <td>Pedroia</td>
       <td>Dustin</td>
-      <td>Baltimore Orioles</td>
       <td>2008</td>
       <td>213</td>
     </tr>
     <tr>
       <td>Suzuki</td>
       <td>Ichiro</td>
-      <td>Baltimore Orioles</td>
       <td>2009</td>
       <td>225</td>
     </tr>
     <tr>
       <td>Suzuki</td>
       <td>Ichiro</td>
-      <td>Baltimore Orioles</td>
       <td>2010</td>
       <td>214</td>
     </tr>
     <tr>
       <td>Gonzalez</td>
       <td>Adrian</td>
-      <td>Baltimore Orioles</td>
       <td>2011</td>
       <td>213</td>
     </tr>
     <tr>
       <td>Jeter</td>
       <td>Derek</td>
-      <td>Baltimore Orioles</td>
       <td>2012</td>
       <td>216</td>
     </tr>
     <tr>
       <td>Beltre</td>
       <td>Adrian</td>
-      <td>Baltimore Orioles</td>
       <td>2013</td>
       <td>199</td>
     </tr>
     <tr>
       <td>Altuve</td>
       <td>Jose</td>
-      <td>Baltimore Orioles</td>
       <td>2014</td>
       <td>225</td>
     </tr>
     <tr>
       <td>Gordon</td>
       <td>Dee</td>
-      <td>Baltimore Orioles</td>
       <td>2015</td>
       <td>205</td>
     </tr>
@@ -275,5 +264,132 @@ Teams who had the least homeruns:
 
 <img src="img/teams-least-homeruns.png">
 
+Who were the American League winners for each year?
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th>League</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>Detroit Tigers</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Boston Red Sox</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Tampa Bay Rays</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>New York Yankees</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Texas Rangers</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Texas Rangers</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Detroit Tigers</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Boston Red Sox</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Kansas City Royals</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Kansas City Royals</td>
+      <td>AL</td>
+    </tr>
+  </tbody>
+</table>
+
+Who were the National League winners for each year?
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th>League</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>St. Louis Cardinals</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Colorado Rockies</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Philadelphia Phillies</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Philadelphia Phillies</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>San Francisco Giants</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>St. Louis Cardinals</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>San Francisco Giants</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>St. Louis Cardinals</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>San Francisco Giants</td>
+      <td>NL</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>New York Mets</td>
+      <td>NL</td>
+    </tr>
+  </tbody>
+</table>
 
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
