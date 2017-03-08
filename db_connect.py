@@ -18,13 +18,24 @@ player_most_hits =  pd.read_sql_query("SELECT m.nameLast as 'Last Name', m.nameF
 #print player_most_hits.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
-division_win_AL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', lgID as 'League' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'AL' GROUP BY yearID"
-                                  , baseball_con)
-division_win_NL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', lgID as 'League' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'NL' GROUP BY yearID"
-                                  , baseball_con)
-#print division_win_AL.to_html(index = False)
+division_win_AL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', divID as 'Division' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'AL' GROUP BY yearID"
+                                     , baseball_con)
+division_win_NL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', divID as 'Division' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'NL' GROUP BY yearID"
+                                     , baseball_con)
+
+print division_win_AL.to_html(index = False)
+
+count_AL = sns.countplot(x = "Division", data = division_win_AL)
+count_AL.set(xlabel='Divison', ylabel='Counts')
+sns.plt.title('AL Division Winners 2006 - 2015')
+plt.show()
+
 print division_win_NL.to_html(index = False)
 
+count_NL = sns.countplot(x = "Division", data = division_win_NL)
+count_NL.set(xlabel='Divison', ylabel='Counts')
+sns.plt.title('NL Division Winners 2006 - 2015')
+plt.show()
 
 # Which team had the most and least home runs in a given season?
 max_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"

@@ -271,62 +271,64 @@ Who were the American League winners for each year?
     <tr style="text-align: right;">
       <th>Year</th>
       <th>Team</th>
-      <th>League</th>
+      <th>Division</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>2006</td>
       <td>Detroit Tigers</td>
-      <td>AL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2007</td>
       <td>Boston Red Sox</td>
-      <td>AL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2008</td>
       <td>Tampa Bay Rays</td>
-      <td>AL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2009</td>
       <td>New York Yankees</td>
-      <td>AL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2010</td>
       <td>Texas Rangers</td>
-      <td>AL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2011</td>
       <td>Texas Rangers</td>
-      <td>AL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2012</td>
       <td>Detroit Tigers</td>
-      <td>AL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2013</td>
       <td>Boston Red Sox</td>
-      <td>AL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2014</td>
       <td>Kansas City Royals</td>
-      <td>AL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2015</td>
       <td>Kansas City Royals</td>
-      <td>AL</td>
+      <td>C</td>
     </tr>
   </tbody>
 </table>
+
+<img src="img/al-div-winners.png">
 
 Who were the National League winners for each year?
 
@@ -335,61 +337,63 @@ Who were the National League winners for each year?
     <tr style="text-align: right;">
       <th>Year</th>
       <th>Team</th>
-      <th>League</th>
+      <th>Division</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>2006</td>
       <td>St. Louis Cardinals</td>
-      <td>NL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2007</td>
       <td>Colorado Rockies</td>
-      <td>NL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2008</td>
       <td>Philadelphia Phillies</td>
-      <td>NL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2009</td>
       <td>Philadelphia Phillies</td>
-      <td>NL</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>2010</td>
       <td>San Francisco Giants</td>
-      <td>NL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2011</td>
       <td>St. Louis Cardinals</td>
-      <td>NL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2012</td>
       <td>San Francisco Giants</td>
-      <td>NL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2013</td>
       <td>St. Louis Cardinals</td>
-      <td>NL</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>2014</td>
       <td>San Francisco Giants</td>
-      <td>NL</td>
+      <td>W</td>
     </tr>
     <tr>
       <td>2015</td>
       <td>New York Mets</td>
-      <td>NL</td>
+      <td>E</td>
     </tr>
   </tbody>
 </table>
+
+<img src="img/nl-div-winners.png">
 
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
