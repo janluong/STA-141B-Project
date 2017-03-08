@@ -9,12 +9,14 @@ baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 # Who won the World Series for each year?
 WSWinners = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
+
 WSWinners_dropped = WSWinners.drop('WSWin', 1)
 #print WSWinners_dropped.to_html(index = False)
 
 # Who had the most hits in a given season?
 player_most_hits =  pd.read_sql_query("SELECT m.nameLast as 'Last Name', m.nameFirst as 'First Name', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.yearID = t.yearID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
                                       , baseball_con)
+
 #print player_most_hits.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
@@ -92,3 +94,17 @@ most_SB_given = pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.year
 
 least_SB_given = pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.yearID, MIN(t.SB) FROM (SELECT playerID, teamID, SUM(SB) as SB, yearID FROM FieldingPost WHERE (yearID > 2005 AND yearID < 2016) AND SB IS NOT NULL GROUP BY playerID, yearID ORDER BY SUM(SB) DESC LIMIT 20) t LEFT JOIN Master m ON m.playerID = t.playerID GROUP BY yearID"
                                   , baseball_con)
+
+#What team pitched the most shutouts for a given season?
+most_shutouts = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(sho) as 'Shutouts' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                                  , baseball_con)
+
+print most_shutouts
+
+plt.rcParams['figure.figsize'] = (10, 10)
+sns.set(font_scale = 1.5)
+
+most_sho_plot = sns.FacetGrid(most_shutouts, hue = "Team", size = 8.5)
+most_sho_plot.map(plt.scatter, "Year", "Shutouts").add_legend()
+sns.plt.title('Teams with most Shutouts from 2006 to 2015')
+plt.show()
