@@ -1,4 +1,4 @@
-## STA 141B Project
+## Introduction
 
 Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyzed data from 2006 to 2016 because 2006 was the year after any names changes had happened (last name change was in 2005). We will primarily focus on the player’s and a little bit on team statistics (number of hits, pitches, etc...) so we can get an idea of how well a player and teams performs throughout the years and what kind of strategies are popular or successful among different teams.
 
@@ -55,7 +55,7 @@ Here are the World Series Winners from 2006 to 2015
   </tbody>
 </table>
 
-Who had the most hits in a given season?
+<h3>Who had the most hits in a given season?</h3>
 
 <table border="1" class="dataframe">
   <thead>
@@ -130,7 +130,7 @@ Who had the most hits in a given season?
   </tbody>
 </table>
 
-Which team had the most and least home runs in a given season?
+<h3>Which team had the most and least home runs in a given season?</h3>
 
 Teams who had the most homeruns:
 
@@ -264,7 +264,7 @@ Teams who had the least homeruns:
 
 <img src="img/teams-least-homeruns.png">
 
-Who were the American League winners for each year?
+<h3>Who were the American League winners for each year?</h3>
 
 <table border="1" class="dataframe">
   <thead>

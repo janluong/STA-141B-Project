@@ -708,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489043149637</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Edit header on README">
+      <created>1489043273061</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1489043273061</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -768,7 +775,8 @@
     <MESSAGE value="Edit a querie" />
     <MESSAGE value="Added Sierra's code" />
     <MESSAGE value="Added header to README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added header to README" />
+    <MESSAGE value="Edit header on README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit header on README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
