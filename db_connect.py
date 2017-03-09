@@ -42,10 +42,10 @@ plt.show()
 # Which team had the most and least home runs in a given season?
 max_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-#print max_HR.to_html(index = False)
+print max_HR.to_html(index = False)
 
-#plt.rcParams['figure.figsize'] = (10, 10)
-#sns.set(font_scale = 1.5)
+plt.rcParams['figure.figsize'] = (10, 10)
+sns.set(font_scale = 1.5)
 
 #most_HR_plot = sns.FacetGrid(max_HR, hue = "Team", size = 8.5)
 #most_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
@@ -61,12 +61,10 @@ min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(HR) as 
 #sns.plt.title('Teams with least Homeruns from 2006 to 2015')
 #plt.show()
 
-# Find the 20 best hitters and 20 worst hitters in all of baseball.
-best_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'Number of Hits' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SUM(H) DESC LIMIT 20"
+# Find the 20 best hitters in all of baseball.
+best_20_hitters = pd.read_sql_query("SELECT t.divID as 'Divison', t.lgID as 'League', m.nameLast as 'Last Name', m.nameFirst as 'First Name', t.name as 'Team', SUM(b.H) as 'Number of Hits' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY SUM(b.H) DESC LIMIT 20"
                                     , baseball_con)
-
-worst_20_hitters = pd.read_sql_query("SELECT playerID, teamID, yearID, SUM(H) as 'num_hits' FROM Batting WHERE (H IS NOT NULL AND H > 0)  AND (yearID > 2005 AND yearID < 2016)GROUP BY playerID ORDER BY SUM(H) LIMIT 20"
-                                     , baseball_con)
+print best_20_hitters.to_html(index = False)
 
 # For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
 # Find the percentage of fastballs for each player.
