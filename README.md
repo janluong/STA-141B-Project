@@ -330,7 +330,7 @@ Who were the American League winners for each year?
 
 <img src="img/al-div-winners.png">
 
-Who were the National League winners for each year?
+<head>Who were the National League winners for each year?</head>
 
 <table border="1" class="dataframe">
   <thead>
