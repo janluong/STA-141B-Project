@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -700,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488934129301</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added header to README">
+      <created>1489043149637</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1489043149637</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -759,7 +767,8 @@
     <MESSAGE value="Added an image" />
     <MESSAGE value="Edit a querie" />
     <MESSAGE value="Added Sierra's code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sierra's code" />
+    <MESSAGE value="Added header to README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header to README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
