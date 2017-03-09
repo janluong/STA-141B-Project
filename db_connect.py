@@ -11,13 +11,13 @@ WSWinners = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', WSWin fr
                               , baseball_con)
 
 WSWinners_dropped = WSWinners.drop('WSWin', 1)
-#print WSWinners_dropped.to_html(index = False)
+print WSWinners_dropped.to_html(index = False)
 
 # Who had the most hits in a given season?
 player_most_hits =  pd.read_sql_query("SELECT m.nameLast as 'Last Name', m.nameFirst as 'First Name', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.yearID = t.yearID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
                                       , baseball_con)
 
-#print player_most_hits.to_html(index = False)
+print player_most_hits.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
 division_win_AL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', divID as 'Division' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'AL' GROUP BY yearID"
@@ -47,19 +47,19 @@ print max_HR.to_html(index = False)
 plt.rcParams['figure.figsize'] = (10, 10)
 sns.set(font_scale = 1.5)
 
-#most_HR_plot = sns.FacetGrid(max_HR, hue = "Team", size = 8.5)
-#most_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
-#sns.plt.title('Teams with most Homeruns from 2006 to 2015')
-#plt.show()
+most_HR_plot = sns.FacetGrid(max_HR, hue = "Team", size = 8.5)
+most_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
+sns.plt.title('Teams with most Homeruns from 2006 to 2015')
+plt.show()
 
 min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
 #print min_HR.to_html(index = False)
 
-#min_HR_plot = sns.FacetGrid(min_HR, hue = "Team", size = 8.5)
-#min_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
-#sns.plt.title('Teams with least Homeruns from 2006 to 2015')
-#plt.show()
+min_HR_plot = sns.FacetGrid(min_HR, hue = "Team", size = 8.5)
+min_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
+sns.plt.title('Teams with least Homeruns from 2006 to 2015')
+plt.show()
 
 # Find the 20 best hitters in all of baseball.
 best_20_hitters = pd.read_sql_query("SELECT t.divID as 'Divison', t.lgID as 'League', m.nameLast as 'Last Name', m.nameFirst as 'First Name', t.name as 'Team', SUM(b.H) as 'Number of Hits' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY SUM(b.H) DESC LIMIT 20"
@@ -68,11 +68,13 @@ print best_20_hitters.to_html(index = False)
 
 # For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
 # Find the percentage of fastballs for each player.
-most_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MAX(SO), H, (MAX(SO) * 1.0) / (MAX(SO) + H) as 'Percentage of Strike Outs' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
-                        , baseball_con)
+most_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MAX(b.SO) as 'Strike Outs', b.H as 'Hits', (MAX(b.SO) * 1.0) / (MAX(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
+                                    , baseball_con)
 
-least_strike_out = pd.read_sql_query("SELECT playerID, teamID, yearID, MIN(SO), H, (MAX(SO) * 1.0) / (MAX(SO) + H) as 'Percentage of Strike Outs' FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY playerID ORDER BY SO DESC LIMIT 20"
+least_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MIN(b.SO) as 'Strike Outs', b.H as 'Hits', (MIN(b.SO) * 1.0) / (MIN(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
                                      , baseball_con)
+
+
 
 # Which teams had the most amount of  stolen bases in a given season?
 most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
