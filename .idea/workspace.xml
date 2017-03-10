@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="71" column="51" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="51" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1489047587386" expanded="true" signature="238:367" ph="SELECT teamI... Teams" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3211">
-              <caret line="643" column="133" lean-forward="false" selection-start-line="643" selection-start-column="133" selection-end-line="643" selection-end-column="133" />
+            <state relative-caret-position="10931">
+              <caret line="841" column="133" lean-forward="false" selection-start-line="841" selection-start-column="133" selection-end-line="841" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -141,6 +141,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STA-141B-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STA-141B-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -169,21 +184,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="STA-141B-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="STA-141B-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489045982731</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Changed column names to be more detailed on some queries">
+      <created>1489047994572</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1489047994572</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -752,9 +759,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="14" width="1238" height="789" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15711948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15711948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.51261127" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -802,16 +809,11 @@
     <MESSAGE value="Added heading styles to questions" />
     <MESSAGE value="Added header" />
     <MESSAGE value="Fixed image for shoutouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed image for shoutouts" />
+    <MESSAGE value="Changed column names to be more detailed on some queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed column names to be more detailed on some queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/db_connect.py</url>
-          <line>19</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -1483,16 +1485,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="643" column="133" lean-forward="false" selection-start-line="643" selection-start-column="133" selection-end-line="643" selection-end-column="133" />
+        <state relative-caret-position="10931">
+          <caret line="841" column="133" lean-forward="false" selection-start-line="841" selection-start-column="133" selection-end-line="841" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="71" column="51" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="51" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1489047587386" expanded="true" signature="238:367" ph="SELECT teamI... Teams" />

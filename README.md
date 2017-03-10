@@ -575,6 +575,204 @@ Teams who had the least homeruns:
   </tbody>
 </table>
 
+<h3>Find the ball-strike count for 20 best and 20 worst hitters.</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>nameLast</th>
+      <th>nameFirst</th>
+      <th>Team</th>
+      <th>Year</th>
+      <th>Strike Outs</th>
+      <th>Hits</th>
+      <th>Percentage of Strike Outs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reynolds</td>
+      <td>Mark</td>
+      <td>Arizona Diamondbacks</td>
+      <td>2009</td>
+      <td>223</td>
+      <td>150</td>
+      <td>0.597855</td>
+    </tr>
+    <tr>
+      <td>Dunn</td>
+      <td>Adam</td>
+      <td>Chicago White Sox</td>
+      <td>2012</td>
+      <td>222</td>
+      <td>110</td>
+      <td>0.668675</td>
+    </tr>
+    <tr>
+      <td>Carter</td>
+      <td>Chris</td>
+      <td>Houston Astros</td>
+      <td>2013</td>
+      <td>212</td>
+      <td>113</td>
+      <td>0.652308</td>
+    </tr>
+    <tr>
+      <td>Davis</td>
+      <td>Chris</td>
+      <td>Baltimore Orioles</td>
+      <td>2015</td>
+      <td>208</td>
+      <td>150</td>
+      <td>0.581006</td>
+    </tr>
+    <tr>
+      <td>Stubbs</td>
+      <td>Drew</td>
+      <td>Cincinnati Redlegs</td>
+      <td>2011</td>
+      <td>205</td>
+      <td>147</td>
+      <td>0.582386</td>
+    </tr>
+    <tr>
+      <td>Bryant</td>
+      <td>Kris</td>
+      <td>Chicago Colts</td>
+      <td>2015</td>
+      <td>199</td>
+      <td>154</td>
+      <td>0.563739</td>
+    </tr>
+    <tr>
+      <td>Howard</td>
+      <td>Ryan</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>2007</td>
+      <td>199</td>
+      <td>142</td>
+      <td>0.583578</td>
+    </tr>
+    <tr>
+      <td>Cust</td>
+      <td>Jack</td>
+      <td>Oakland Athletics</td>
+      <td>2008</td>
+      <td>197</td>
+      <td>111</td>
+      <td>0.639610</td>
+    </tr>
+    <tr>
+      <td>Granderson</td>
+      <td>Curtis</td>
+      <td>New York Highlanders</td>
+      <td>2012</td>
+      <td>195</td>
+      <td>138</td>
+      <td>0.585586</td>
+    </tr>
+    <tr>
+      <td>Espinosa</td>
+      <td>Danny</td>
+      <td>Washington Nationals</td>
+      <td>2012</td>
+      <td>189</td>
+      <td>147</td>
+      <td>0.562500</td>
+    </tr>
+    <tr>
+      <td>Desmond</td>
+      <td>Ian</td>
+      <td>Washington Nationals</td>
+      <td>2015</td>
+      <td>187</td>
+      <td>136</td>
+      <td>0.578947</td>
+    </tr>
+    <tr>
+      <td>Napoli</td>
+      <td>Mike</td>
+      <td>Boston Americans</td>
+      <td>2013</td>
+      <td>187</td>
+      <td>129</td>
+      <td>0.591772</td>
+    </tr>
+    <tr>
+      <td>Alvarez</td>
+      <td>Pedro</td>
+      <td>Pittsburg Alleghenys</td>
+      <td>2013</td>
+      <td>186</td>
+      <td>130</td>
+      <td>0.588608</td>
+    </tr>
+    <tr>
+      <td>Bruce</td>
+      <td>Jay</td>
+      <td>Cincinnati Redlegs</td>
+      <td>2013</td>
+      <td>185</td>
+      <td>164</td>
+      <td>0.530086</td>
+    </tr>
+    <tr>
+      <td>Byrd</td>
+      <td>Marlon</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>2014</td>
+      <td>185</td>
+      <td>156</td>
+      <td>0.542522</td>
+    </tr>
+    <tr>
+      <td>Trout</td>
+      <td>Mike</td>
+      <td>Los Angeles Angels</td>
+      <td>2014</td>
+      <td>184</td>
+      <td>173</td>
+      <td>0.515406</td>
+    </tr>
+    <tr>
+      <td>Trumbo</td>
+      <td>Mark</td>
+      <td>Los Angeles Angels</td>
+      <td>2013</td>
+      <td>184</td>
+      <td>145</td>
+      <td>0.559271</td>
+    </tr>
+    <tr>
+      <td>Weeks</td>
+      <td>Rickie</td>
+      <td>Milwaukee Brewers</td>
+      <td>2010</td>
+      <td>184</td>
+      <td>175</td>
+      <td>0.512535</td>
+    </tr>
+    <tr>
+      <td>Pena</td>
+      <td>Carlos</td>
+      <td>Tampa Bay Devil Rays</td>
+      <td>2012</td>
+      <td>182</td>
+      <td>98</td>
+      <td>0.650000</td>
+    </tr>
+    <tr>
+      <td>Jackson</td>
+      <td>Austin</td>
+      <td>Detroit Tigers</td>
+      <td>2011</td>
+      <td>181</td>
+      <td>147</td>
+      <td>0.551829</td>
+    </tr>
+  </tbody>
+</table>
+
 <h3>What team pitched the most shutouts for a given season?</h3>
 ​
 <table border="1" class="dataframe">
