@@ -409,6 +409,7 @@ Teams who had the least homeruns:
       <th>First Name</th>
       <th>Team</th>
       <th>Number of Hits</th>
+      <th>Home Country</th>
     </tr>
   </thead>
   <tbody>
@@ -419,6 +420,7 @@ Teams who had the least homeruns:
       <td>Brandon</td>
       <td>Cincinnati Reds</td>
       <td>203364</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>W</td>
@@ -427,6 +429,7 @@ Teams who had the least homeruns:
       <td>Jimmy</td>
       <td>Los Angeles Dodgers</td>
       <td>193194</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>W</td>
@@ -435,6 +438,7 @@ Teams who had the least homeruns:
       <td>Robinson</td>
       <td>Seattle Mariners</td>
       <td>183096</td>
+      <td>D.R.</td>
     </tr>
     <tr>
       <td>W</td>
@@ -443,6 +447,7 @@ Teams who had the least homeruns:
       <td>Chase</td>
       <td>Los Angeles Dodgers</td>
       <td>182596</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>E</td>
@@ -451,6 +456,7 @@ Teams who had the least homeruns:
       <td>Miguel</td>
       <td>Detroit Tigers</td>
       <td>178512</td>
+      <td>Venezuela</td>
     </tr>
     <tr>
       <td>E</td>
@@ -459,6 +465,7 @@ Teams who had the least homeruns:
       <td>Ryan</td>
       <td>Philadelphia Phillies</td>
       <td>174097</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>E</td>
@@ -467,6 +474,7 @@ Teams who had the least homeruns:
       <td>Derek</td>
       <td>New York Yankees</td>
       <td>172777</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>E</td>
@@ -475,6 +483,7 @@ Teams who had the least homeruns:
       <td>Jhonny</td>
       <td>St. Louis Cardinals</td>
       <td>171459</td>
+      <td>D.R.</td>
     </tr>
     <tr>
       <td>E</td>
@@ -483,6 +492,7 @@ Teams who had the least homeruns:
       <td>Dustin</td>
       <td>Boston Red Sox</td>
       <td>170430</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>E</td>
@@ -491,6 +501,7 @@ Teams who had the least homeruns:
       <td>David</td>
       <td>Boston Red Sox</td>
       <td>163990</td>
+      <td>D.R.</td>
     </tr>
     <tr>
       <td>E</td>
@@ -499,6 +510,7 @@ Teams who had the least homeruns:
       <td>Victor</td>
       <td>Detroit Tigers</td>
       <td>161805</td>
+      <td>Venezuela</td>
     </tr>
     <tr>
       <td>E</td>
@@ -507,6 +519,7 @@ Teams who had the least homeruns:
       <td>Yadier</td>
       <td>St. Louis Cardinals</td>
       <td>160704</td>
+      <td>P.R.</td>
     </tr>
     <tr>
       <td>W</td>
@@ -515,6 +528,7 @@ Teams who had the least homeruns:
       <td>Shane</td>
       <td>Los Angeles Angels of Anaheim</td>
       <td>157837</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>W</td>
@@ -523,6 +537,7 @@ Teams who had the least homeruns:
       <td>Joey</td>
       <td>Cincinnati Reds</td>
       <td>154476</td>
+      <td>CAN</td>
     </tr>
     <tr>
       <td>E</td>
@@ -531,6 +546,7 @@ Teams who had the least homeruns:
       <td>Andrew</td>
       <td>Pittsburgh Pirates</td>
       <td>148479</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>W</td>
@@ -539,6 +555,7 @@ Teams who had the least homeruns:
       <td>Alexei</td>
       <td>Chicago White Sox</td>
       <td>146280</td>
+      <td>Cuba</td>
     </tr>
     <tr>
       <td>W</td>
@@ -547,6 +564,7 @@ Teams who had the least homeruns:
       <td>Albert</td>
       <td>Los Angeles Angels of Anaheim</td>
       <td>144179</td>
+      <td>D.R.</td>
     </tr>
     <tr>
       <td>E</td>
@@ -555,6 +573,7 @@ Teams who had the least homeruns:
       <td>Curtis</td>
       <td>New York Mets</td>
       <td>141407</td>
+      <td>USA</td>
     </tr>
     <tr>
       <td>E</td>
@@ -563,6 +582,7 @@ Teams who had the least homeruns:
       <td>Alfonso</td>
       <td>New York Yankees</td>
       <td>141099</td>
+      <td>D.R.</td>
     </tr>
     <tr>
       <td>W</td>
@@ -571,11 +591,16 @@ Teams who had the least homeruns:
       <td>Paul</td>
       <td>Chicago White Sox</td>
       <td>140875</td>
+      <td>USA</td>
     </tr>
   </tbody>
 </table>
 
+<img src="img/home-c-top-20-hitters.png">
+
 <h3>Find the ball-strike count for 20 best and 20 worst hitters.</h3>
+
+Top 20 best hitters ball-strike count are:
 
 <table border="1" class="dataframe">
   <thead>
@@ -769,6 +794,204 @@ Teams who had the least homeruns:
       <td>181</td>
       <td>147</td>
       <td>0.551829</td>
+    </tr>
+  </tbody>
+</table>
+
+Top 20 worst hitters ball-strike count are:
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>nameLast</th>
+      <th>nameFirst</th>
+      <th>Team</th>
+      <th>Year</th>
+      <th>Strike Outs</th>
+      <th>Hits</th>
+      <th>Percentage of Strike Outs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bryant</td>
+      <td>Kris</td>
+      <td>Chicago Colts</td>
+      <td>2015</td>
+      <td>199</td>
+      <td>154</td>
+      <td>0.563739</td>
+    </tr>
+    <tr>
+      <td>Russell</td>
+      <td>Addison</td>
+      <td>Chicago Colts</td>
+      <td>2015</td>
+      <td>149</td>
+      <td>115</td>
+      <td>0.564394</td>
+    </tr>
+    <tr>
+      <td>Abreu</td>
+      <td>Jose</td>
+      <td>Chicago White Sox</td>
+      <td>2014</td>
+      <td>131</td>
+      <td>176</td>
+      <td>0.426710</td>
+    </tr>
+    <tr>
+      <td>Herrera</td>
+      <td>Odubel</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>2015</td>
+      <td>129</td>
+      <td>147</td>
+      <td>0.467391</td>
+    </tr>
+    <tr>
+      <td>Sano</td>
+      <td>Miguel</td>
+      <td>Minnesota Twins</td>
+      <td>2015</td>
+      <td>119</td>
+      <td>75</td>
+      <td>0.613402</td>
+    </tr>
+    <tr>
+      <td>Rosario</td>
+      <td>Eddie</td>
+      <td>Minnesota Twins</td>
+      <td>2015</td>
+      <td>118</td>
+      <td>121</td>
+      <td>0.493724</td>
+    </tr>
+    <tr>
+      <td>Sosa</td>
+      <td>Sammy</td>
+      <td>Texas Rangers</td>
+      <td>2007</td>
+      <td>112</td>
+      <td>104</td>
+      <td>0.518519</td>
+    </tr>
+    <tr>
+      <td>Tomas</td>
+      <td>Yasmany</td>
+      <td>Arizona Diamondbacks</td>
+      <td>2015</td>
+      <td>110</td>
+      <td>111</td>
+      <td>0.497738</td>
+    </tr>
+    <tr>
+      <td>Springer</td>
+      <td>George</td>
+      <td>Houston Astros</td>
+      <td>2015</td>
+      <td>109</td>
+      <td>107</td>
+      <td>0.504630</td>
+    </tr>
+    <tr>
+      <td>Dye</td>
+      <td>Jermaine</td>
+      <td>Chicago White Sox</td>
+      <td>2008</td>
+      <td>104</td>
+      <td>172</td>
+      <td>0.376812</td>
+    </tr>
+    <tr>
+      <td>DeShields</td>
+      <td>Delino</td>
+      <td>Texas Rangers</td>
+      <td>2015</td>
+      <td>101</td>
+      <td>111</td>
+      <td>0.476415</td>
+    </tr>
+    <tr>
+      <td>Gyorko</td>
+      <td>Jedd</td>
+      <td>San Diego Padres</td>
+      <td>2014</td>
+      <td>100</td>
+      <td>84</td>
+      <td>0.543478</td>
+    </tr>
+    <tr>
+      <td>Kang</td>
+      <td>Jung Ho</td>
+      <td>Pittsburg Alleghenys</td>
+      <td>2015</td>
+      <td>99</td>
+      <td>121</td>
+      <td>0.450000</td>
+    </tr>
+    <tr>
+      <td>Canha</td>
+      <td>Mark</td>
+      <td>Oakland Athletics</td>
+      <td>2015</td>
+      <td>96</td>
+      <td>112</td>
+      <td>0.461538</td>
+    </tr>
+    <tr>
+      <td>Howard</td>
+      <td>Ryan</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>2013</td>
+      <td>95</td>
+      <td>76</td>
+      <td>0.555556</td>
+    </tr>
+    <tr>
+      <td>Stanton</td>
+      <td>Giancarlo</td>
+      <td>Miami Marlins</td>
+      <td>2015</td>
+      <td>95</td>
+      <td>74</td>
+      <td>0.562130</td>
+    </tr>
+    <tr>
+      <td>Harper</td>
+      <td>Bryce</td>
+      <td>Washington Nationals</td>
+      <td>2013</td>
+      <td>94</td>
+      <td>116</td>
+      <td>0.447619</td>
+    </tr>
+    <tr>
+      <td>Hunter</td>
+      <td>Torii</td>
+      <td>Detroit Tigers</td>
+      <td>2014</td>
+      <td>89</td>
+      <td>157</td>
+      <td>0.361789</td>
+    </tr>
+    <tr>
+      <td>Lagares</td>
+      <td>Juan</td>
+      <td>New York Mets</td>
+      <td>2014</td>
+      <td>87</td>
+      <td>117</td>
+      <td>0.426471</td>
+    </tr>
+    <tr>
+      <td>Biggio</td>
+      <td>Craig</td>
+      <td>Houston Astros</td>
+      <td>2006</td>
+      <td>84</td>
+      <td>135</td>
+      <td>0.383562</td>
     </tr>
   </tbody>
 </table>

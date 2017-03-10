@@ -62,9 +62,13 @@ sns.plt.title('Teams with least Homeruns from 2006 to 2015')
 plt.show()
 
 # Find the 20 best hitters in all of baseball.
-best_20_hitters = pd.read_sql_query("SELECT t.divID as 'Divison', t.lgID as 'League', m.nameLast as 'Last Name', m.nameFirst as 'First Name', t.name as 'Team', SUM(b.H) as 'Number of Hits' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY SUM(b.H) DESC LIMIT 20"
+best_20_hitters = pd.read_sql_query("SELECT t.divID as 'Divison', t.lgID as 'League', m.nameLast as 'Last Name', m.nameFirst as 'First Name', t.name as 'Team', SUM(b.H) as 'Number of Hits', m.birthcountry as 'Home Country' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY SUM(b.H) DESC LIMIT 20"
                                     , baseball_con)
+
 print best_20_hitters.to_html(index = False)
+
+sns.countplot(x = "Home Country", data = best_20_hitters)
+plt.show()
 
 # For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
 # Find the percentage of fastballs for each player.
@@ -73,8 +77,6 @@ most_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as '
 
 least_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MIN(b.SO) as 'Strike Outs', b.H as 'Hits', (MIN(b.SO) * 1.0) / (MIN(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
                                      , baseball_con)
-
-
 
 # Which teams had the most amount of  stolen bases in a given season?
 most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
