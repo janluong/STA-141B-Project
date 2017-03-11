@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 
 # Who won the World Series for each year?
-WSWinners = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
+WSWinners = pd.read_sql_query("SELECT name as 'Team', R as 'Runs', HR as 'Homeruns', yearID as 'Year', WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
 
 WSWinners_dropped = WSWinners.drop('WSWin', 1)
@@ -70,7 +70,7 @@ print best_20_hitters.to_html(index = False)
 sns.countplot(x = "Home Country", data = best_20_hitters)
 plt.show()
 
-# For 20 best and 20 worst hitters, find the ball-strike count for each hitter.
+# For 20 hitters, find the max and min ball-strike count.
 # Find the percentage of fastballs for each player.
 most_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MAX(b.SO) as 'Strike Outs', b.H as 'Hits', (MAX(b.SO) * 1.0) / (MAX(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
                                     , baseball_con)
