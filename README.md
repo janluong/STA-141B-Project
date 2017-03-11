@@ -4,7 +4,7 @@ Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyz
 
 <h2>Analyzing the Data</h2>
 
-Here are the World Series Winners from 2006 to 2015
+Here are the World Series Winners from 2006 to 2015 along with their number of runs and homeruns:
 
 <table border="1" class="dataframe">
   <thead>
@@ -78,6 +78,138 @@ Here are the World Series Winners from 2006 to 2015
     </tr>
   </tbody>
 </table>
+
+<h3>Who were the American League winners for each year?</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th>Division</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>Detroit Tigers</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Boston Red Sox</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Tampa Bay Rays</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>New York Yankees</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Texas Rangers</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Texas Rangers</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Detroit Tigers</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Boston Red Sox</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Kansas City Royals</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Kansas City Royals</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="img/al-div-winners.png">
+
+<h3>Who were the National League winners for each year?</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th>Division</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>St. Louis Cardinals</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Colorado Rockies</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Philadelphia Phillies</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Philadelphia Phillies</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>San Francisco Giants</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>St. Louis Cardinals</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>San Francisco Giants</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>St. Louis Cardinals</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>San Francisco Giants</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>New York Mets</td>
+      <td>E</td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="img/nl-div-winners.png">
 
 <h3>Who had the most hits in a given season?</h3>
 
@@ -310,137 +442,71 @@ Teams who had the least homeruns:
 
 <img src="img/teams-least-homeruns.png">
 
-<h3>Who were the American League winners for each year?</h3>
+<h3>Which teams had the most amount of stolen bases for each season?</h3>
 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th>Year</th>
+      <th># of Stolen Bases</th>
       <th>Team</th>
-      <th>Division</th>
+      <th>Year</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>148</td>
+      <td>Los Angeles Angels of Anaheim</td>
       <td>2006</td>
-      <td>Detroit Tigers</td>
-      <td>C</td>
     </tr>
     <tr>
-      <td>2007</td>
-      <td>Boston Red Sox</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2008</td>
-      <td>Tampa Bay Rays</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2009</td>
-      <td>New York Yankees</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>Texas Rangers</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>Texas Rangers</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>Detroit Tigers</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>Boston Red Sox</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>Kansas City Royals</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td>Kansas City Royals</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-<img src="img/al-div-winners.png">
-
-<h3>Who were the National League winners for each year?</h3>
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Year</th>
-      <th>Team</th>
-      <th>Division</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2006</td>
-      <td>St. Louis Cardinals</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>2007</td>
-      <td>Colorado Rockies</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2008</td>
-      <td>Philadelphia Phillies</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2009</td>
-      <td>Philadelphia Phillies</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>San Francisco Giants</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>St. Louis Cardinals</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>San Francisco Giants</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>St. Louis Cardinals</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>San Francisco Giants</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>2015</td>
+      <td>200</td>
       <td>New York Mets</td>
-      <td>E</td>
+      <td>2007</td>
+    </tr>
+    <tr>
+      <td>142</td>
+      <td>Tampa Bay Rays</td>
+      <td>2008</td>
+    </tr>
+    <tr>
+      <td>194</td>
+      <td>Tampa Bay Rays</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <td>172</td>
+      <td>Tampa Bay Rays</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <td>170</td>
+      <td>San Diego Padres</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <td>158</td>
+      <td>Milwaukee Brewers</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>Kansas City Royals</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>Kansas City Royals</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>134</td>
+      <td>Cincinnati Reds</td>
+      <td>2015</td>
     </tr>
   </tbody>
 </table>
 
-<img src="img/nl-div-winners.png">
+
 
 <h3>Find the 20 best hitters in all of baseball.</h3>
 
@@ -641,7 +707,6 @@ Teams who had the least homeruns:
 </table>
 
 <img src="img/home-c-top-20-hitters.png">
-
 
 <h3>Find the ball-strike count for 20 best and 20 worst hitters.</h3>
 
@@ -1435,6 +1500,70 @@ The minimum ball-strike count for 20 hitters are:
       <td>84</td>
       <td>135</td>
       <td>0.383562</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>What team pitched the most strik outs for each season?</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th># of Strike Outs</th>
+      <th>Team</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1250</td>
+      <td>Chicago Cubs</td>
+      <td>2006</td>
+    </tr>
+    <tr>
+      <td>1211</td>
+      <td>Chicago Cubs</td>
+      <td>2007</td>
+    </tr>
+    <tr>
+      <td>1264</td>
+      <td>Chicago Cubs</td>
+      <td>2008</td>
+    </tr>
+    <tr>
+      <td>1302</td>
+      <td>San Francisco Giants</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <td>1331</td>
+      <td>San Francisco Giants</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <td>1332</td>
+      <td>Atlanta Braves</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <td>1402</td>
+      <td>Milwaukee Brewers</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <td>1428</td>
+      <td>Detroit Tigers</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <td>1450</td>
+      <td>Cleveland Indians</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>1431</td>
+      <td>Chicago Cubs</td>
+      <td>2015</td>
     </tr>
   </tbody>
 </table>

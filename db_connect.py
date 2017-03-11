@@ -75,16 +75,24 @@ plt.show()
 most_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MAX(b.SO) as 'Strike Outs', b.H as 'Hits', (MAX(b.SO) * 1.0) / (MAX(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
                                     , baseball_con)
 
+print most_strike_out(index = False)
+
 least_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MIN(b.SO) as 'Strike Outs', b.H as 'Hits', (MIN(b.SO) * 1.0) / (MIN(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
                                      , baseball_con)
 
-# Which teams had the most amount of  stolen bases in a given season?
+print least_strike_out.to_html(index = False)
+
+# Which teams had the most amount of stolen bases for each season?
 most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
                             , baseball_con)
 
-# What team pitch the most strike outs for the season?
-max_SOA = pd.read_sql_query("SELECT MAX(SOA), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+print most_SB.to_html(index = False)
+
+# What team pitched the most strike outs for a season?
+max_SOA = pd.read_sql_query("SELECT MAX(SOA) '# of Strike Outs', name as 'Team', yearID as'Year' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
                             , baseball_con)
+
+print max_SOA.to_html(index = False)
 
 # Who were the top players had the most home runs in the a given season?
 top_player_HR = pd.read_sql_query("SELECT MAX(HR), teamID, playerID, yearID FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
