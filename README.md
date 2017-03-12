@@ -211,8 +211,6 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
 
 <img src="img/nl-div-winners.png">
 
-
-
 <h3>Which team had the most and least home runs in a given season?</h3>
 
 Teams who had the most homeruns:
@@ -369,66 +367,152 @@ Teams who had the least homeruns:
 
 <img src="img/teams-least-homeruns.png">
 
+<h3>Who were the top players who had the most homeruns each season?</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th>Last Name</th>
+      <th>First Name</th>
+      <th># of Homeruns</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>Howard</td>
+      <td>Ryan</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>New York Highlanders</td>
+      <td>Rodriguez</td>
+      <td>Alex</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Philadelphia Blue Jays</td>
+      <td>Howard</td>
+      <td>Ryan</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>St. Louis Browns</td>
+      <td>Pujols</td>
+      <td>Albert</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Toronto Blue Jays</td>
+      <td>Bautista</td>
+      <td>Jose</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Toronto Blue Jays</td>
+      <td>Bautista</td>
+      <td>Jose</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Detroit Tigers</td>
+      <td>Cabrera</td>
+      <td>Miguel</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Baltimore Orioles</td>
+      <td>Davis</td>
+      <td>Chris</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Baltimore Orioles</td>
+      <td>Cruz</td>
+      <td>Nelson</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Baltimore Orioles</td>
+      <td>Davis</td>
+      <td>Chris</td>
+      <td>47</td>
+    </tr>
+  </tbody>
+</table>
+
 <h3>Which teams had the most amount of stolen bases for each season?</h3>
 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th># of Stolen Bases</th>
-      <th>Team</th>
       <th>Year</th>
+      <th>Team</th>
+      <th># of Stolen Bases</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>148</td>
-      <td>Los Angeles Angels of Anaheim</td>
       <td>2006</td>
+      <td>Los Angeles Angels of Anaheim</td>
+      <td>148</td>
     </tr>
     <tr>
-      <td>200</td>
-      <td>New York Mets</td>
       <td>2007</td>
+      <td>New York Mets</td>
+      <td>200</td>
     </tr>
     <tr>
-      <td>142</td>
-      <td>Tampa Bay Rays</td>
       <td>2008</td>
+      <td>Tampa Bay Rays</td>
+      <td>142</td>
     </tr>
     <tr>
-      <td>194</td>
-      <td>Tampa Bay Rays</td>
       <td>2009</td>
-    </tr>
-    <tr>
-      <td>172</td>
       <td>Tampa Bay Rays</td>
+      <td>194</td>
+    </tr>
+    <tr>
       <td>2010</td>
+      <td>Tampa Bay Rays</td>
+      <td>172</td>
     </tr>
     <tr>
-      <td>170</td>
-      <td>San Diego Padres</td>
       <td>2011</td>
+      <td>San Diego Padres</td>
+      <td>170</td>
     </tr>
     <tr>
-      <td>158</td>
-      <td>Milwaukee Brewers</td>
       <td>2012</td>
+      <td>Milwaukee Brewers</td>
+      <td>158</td>
     </tr>
     <tr>
-      <td>153</td>
-      <td>Kansas City Royals</td>
       <td>2013</td>
-    </tr>
-    <tr>
-      <td>153</td>
       <td>Kansas City Royals</td>
-      <td>2014</td>
+      <td>153</td>
     </tr>
     <tr>
-      <td>134</td>
-      <td>Cincinnati Reds</td>
+      <td>2014</td>
+      <td>Kansas City Royals</td>
+      <td>153</td>
+    </tr>
+    <tr>
       <td>2015</td>
+      <td>Cincinnati Reds</td>
+      <td>134</td>
     </tr>
   </tbody>
 </table>

@@ -83,7 +83,7 @@ least_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 
 print least_strike_out.to_html(index = False)
 
 # Which teams had the most amount of stolen bases for each season?
-most_SB = pd.read_sql_query("SELECT MAX(SB), name, yearID FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+most_SB = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(SB) as '# of Stolen Bases' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
                             , baseball_con)
 
 print most_SB.to_html(index = False)
@@ -94,9 +94,11 @@ max_SOA = pd.read_sql_query("SELECT MAX(SOA) '# of Strike Outs', name as 'Team',
 
 print max_SOA.to_html(index = False)
 
-# Who were the top players had the most home runs in the a given season?
-top_player_HR = pd.read_sql_query("SELECT MAX(HR), teamID, playerID, yearID FROM Batting WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+# Who were the top players who had the most homeruns each season?
+top_player_HR = pd.read_sql_query("SELECT b.yearID as 'Year', t.name as 'Team', m.nameLast as 'Last Name', m.nameFirst as 'First Name', MAX(b.HR) as '# of Homeruns' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
                                   , baseball_con)
+
+print top_player_HR.to_html(index = False)
 
 # Which pitcher had the most and least stolen bases allowed each season? Are they left or right handed?
 most_SB_given = pd.read_sql_query("SELECT t.playerID, m.throws, t.teamID, t.yearID, MAX(t.SB) FROM (SELECT playerID, teamID, SUM(SB) as SB, yearID FROM FieldingPost WHERE (yearID > 2005 AND yearID < 2016) AND SB IS NOT NULL GROUP BY playerID, yearID ORDER BY SUM(SB) DESC LIMIT 20) t LEFT JOIN Master m ON m.playerID = t.playerID GROUP BY yearID"
