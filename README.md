@@ -211,80 +211,7 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
 
 <img src="img/nl-div-winners.png">
 
-<h3>Who had the most hits in a given season?</h3>
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Last Name</th>
-      <th>First Name</th>
-      <th>Year</th>
-      <th>Number of Hits</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Suzuki</td>
-      <td>Ichiro</td>
-      <td>2006</td>
-      <td>224</td>
-    </tr>
-    <tr>
-      <td>Suzuki</td>
-      <td>Ichiro</td>
-      <td>2007</td>
-      <td>238</td>
-    </tr>
-    <tr>
-      <td>Pedroia</td>
-      <td>Dustin</td>
-      <td>2008</td>
-      <td>213</td>
-    </tr>
-    <tr>
-      <td>Suzuki</td>
-      <td>Ichiro</td>
-      <td>2009</td>
-      <td>225</td>
-    </tr>
-    <tr>
-      <td>Suzuki</td>
-      <td>Ichiro</td>
-      <td>2010</td>
-      <td>214</td>
-    </tr>
-    <tr>
-      <td>Gonzalez</td>
-      <td>Adrian</td>
-      <td>2011</td>
-      <td>213</td>
-    </tr>
-    <tr>
-      <td>Jeter</td>
-      <td>Derek</td>
-      <td>2012</td>
-      <td>216</td>
-    </tr>
-    <tr>
-      <td>Beltre</td>
-      <td>Adrian</td>
-      <td>2013</td>
-      <td>199</td>
-    </tr>
-    <tr>
-      <td>Altuve</td>
-      <td>Jose</td>
-      <td>2014</td>
-      <td>225</td>
-    </tr>
-    <tr>
-      <td>Gordon</td>
-      <td>Dee</td>
-      <td>2015</td>
-      <td>205</td>
-    </tr>
-  </tbody>
-</table>
 
 <h3>Which team had the most and least home runs in a given season?</h3>
 
@@ -506,7 +433,80 @@ Teams who had the least homeruns:
   </tbody>
 </table>
 
+<h3>Who had the most hits in a given season?</h3>
 
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Last Name</th>
+      <th>First Name</th>
+      <th>Year</th>
+      <th>Number of Hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Suzuki</td>
+      <td>Ichiro</td>
+      <td>2006</td>
+      <td>224</td>
+    </tr>
+    <tr>
+      <td>Suzuki</td>
+      <td>Ichiro</td>
+      <td>2007</td>
+      <td>238</td>
+    </tr>
+    <tr>
+      <td>Pedroia</td>
+      <td>Dustin</td>
+      <td>2008</td>
+      <td>213</td>
+    </tr>
+    <tr>
+      <td>Suzuki</td>
+      <td>Ichiro</td>
+      <td>2009</td>
+      <td>225</td>
+    </tr>
+    <tr>
+      <td>Suzuki</td>
+      <td>Ichiro</td>
+      <td>2010</td>
+      <td>214</td>
+    </tr>
+    <tr>
+      <td>Gonzalez</td>
+      <td>Adrian</td>
+      <td>2011</td>
+      <td>213</td>
+    </tr>
+    <tr>
+      <td>Jeter</td>
+      <td>Derek</td>
+      <td>2012</td>
+      <td>216</td>
+    </tr>
+    <tr>
+      <td>Beltre</td>
+      <td>Adrian</td>
+      <td>2013</td>
+      <td>199</td>
+    </tr>
+    <tr>
+      <td>Altuve</td>
+      <td>Jose</td>
+      <td>2014</td>
+      <td>225</td>
+    </tr>
+    <tr>
+      <td>Gordon</td>
+      <td>Dee</td>
+      <td>2015</td>
+      <td>205</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3>Find the 20 best hitters in all of baseball.</h3>
 

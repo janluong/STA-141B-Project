@@ -4,7 +4,6 @@
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="622">
+              <caret line="116" column="70" lean-forward="true" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1489275921481" expanded="true" signature="238:398" ph="SELECT name Teams" />
@@ -780,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489274466385</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Moved some questions and able around so questions appear more related">
+      <created>1489276790301</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1489276790301</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -823,7 +829,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added years constraint" />
     <MESSAGE value="Added more quries" />
     <MESSAGE value="Test push" />
     <MESSAGE value="Removed &quot;Hi&quot;" />
@@ -848,7 +853,8 @@
     <MESSAGE value="Added home country for 20 best hitters of all time" />
     <MESSAGE value="Added number of Runs of Teams of Max/Min Homeruns" />
     <MESSAGE value="Changed ordering for the max and min strike out question and added tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed ordering for the max and min strike out question and added tables" />
+    <MESSAGE value="Moved some questions and able around so questions appear more related" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved some questions and able around so questions appear more related" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1515,8 +1521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="622">
+          <caret line="116" column="70" lean-forward="true" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1489275921481" expanded="true" signature="238:398" ph="SELECT name Teams" />
