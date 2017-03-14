@@ -291,8 +291,6 @@ Teams who had the most runs:
 
 It is interesting to note though, that many of the teams that made the list of most number of runs in a season were on it multiple times. The only team that was only on the list once was the Milwaukee Brewers in 2007.
 
-<img src="img/Teams-most-homeruns.png">
-
 Teams who had the least runs and homeruns:
 
 <table border="1" class="dataframe">
@@ -367,8 +365,6 @@ Teams who had the least runs and homeruns:
     </tr>
   </tbody>
 </table>
-
-<img src="img/teams-least-homeruns.png"> 
 
 Our expectation that the World Series teams would have the most home runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of home runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of home runs that year. Over the last ten years, both of the teams mentioned above have had the least number of home runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places, such as having a good pitcher. 
 

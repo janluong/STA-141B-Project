@@ -67,8 +67,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11186">
-              <caret line="658" column="133" lean-forward="false" selection-start-line="658" selection-start-column="133" selection-end-line="658" selection-end-column="133" />
+            <state relative-caret-position="11118">
+              <caret line="654" column="133" lean-forward="false" selection-start-line="654" selection-start-column="133" selection-end-line="654" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -462,13 +462,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486358684481</updated>
     </task>
-    <task id="LOCAL-00010" summary="Edit README">
-      <created>1488763290130</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1488763290130</updated>
-    </task>
     <task id="LOCAL-00011" summary="Playing around with layout and README">
       <created>1488763432787</created>
       <option name="number" value="00011" />
@@ -805,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489531377177</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Edit table for runs">
+      <created>1489531686896</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1489531686896</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1500,8 +1500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11186">
-          <caret line="658" column="133" lean-forward="false" selection-start-line="658" selection-start-column="133" selection-end-line="658" selection-end-column="133" />
+        <state relative-caret-position="11118">
+          <caret line="654" column="133" lean-forward="false" selection-start-line="654" selection-start-column="133" selection-end-line="654" selection-end-column="133" />
           <folding />
         </state>
       </provider>
