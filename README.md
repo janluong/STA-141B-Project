@@ -381,8 +381,7 @@ Teams who had the least homeruns:
 
 <img src="img/teams-least-homeruns.png"> 
 
-As it turns out, our expectation that the World Series teams would have the most home runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of home runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of home runs that year. Over the last ten years, both of the teams mentioned above have had the least number of home runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places. 
-
+Our expectation that the World Series teams would have the most home runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of home runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of home runs that year. Over the last ten years, both of the teams mentioned above have had the least number of home runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places, such as having a good pitcher. 
 
 <h3>Who were the top players who had the most homeruns each season?</h3>
 
@@ -1627,61 +1626,61 @@ The minimum ball-strike count for 20 hitters are:
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th># of Strike Outs</th>
-      <th>Team</th>
       <th>Year</th>
+      <th>Team</th>
+      <th># of Strike Outs</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1250</td>
-      <td>Chicago Cubs</td>
       <td>2006</td>
+      <td>Chicago Cubs</td>
+      <td>1250</td>
     </tr>
     <tr>
-      <td>1211</td>
-      <td>Chicago Cubs</td>
       <td>2007</td>
+      <td>Chicago Cubs</td>
+      <td>1211</td>
     </tr>
     <tr>
-      <td>1264</td>
-      <td>Chicago Cubs</td>
       <td>2008</td>
-    </tr>
-    <tr>
-      <td>1302</td>
-      <td>San Francisco Giants</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>1331</td>
-      <td>San Francisco Giants</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>1332</td>
-      <td>Atlanta Braves</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>1402</td>
-      <td>Milwaukee Brewers</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>1428</td>
-      <td>Detroit Tigers</td>
-      <td>2013</td>
-    </tr>
-    <tr>
-      <td>1450</td>
-      <td>Cleveland Indians</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td>1431</td>
       <td>Chicago Cubs</td>
+      <td>1264</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>San Francisco Giants</td>
+      <td>1302</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>San Francisco Giants</td>
+      <td>1331</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Atlanta Braves</td>
+      <td>1332</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Milwaukee Brewers</td>
+      <td>1402</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Detroit Tigers</td>
+      <td>1428</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Cleveland Indians</td>
+      <td>1450</td>
+    </tr>
+    <tr>
       <td>2015</td>
+      <td>Chicago Cubs</td>
+      <td>1431</td>
     </tr>
   </tbody>
 </table>

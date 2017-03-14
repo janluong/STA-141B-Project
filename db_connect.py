@@ -88,8 +88,8 @@ most_SB = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(SB) as
 
 print most_SB.to_html(index = False)
 
-# What team pitched the most strike outs for a season?
-max_SOA = pd.read_sql_query("SELECT MAX(SOA) '# of Strike Outs', name as 'Team', yearID as'Year' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+# What team pitched the most strik outs for each season?
+max_SOA = pd.read_sql_query("SELECT yearID as'Year', name as 'Team', MAX(SOA) '# of Strike Outs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
                             , baseball_con)
 
 print max_SOA.to_html(index = False)
