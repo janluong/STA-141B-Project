@@ -13,12 +13,6 @@ WSWinners = pd.read_sql_query("SELECT name as 'Team', R as 'Runs', HR as 'Homeru
 WSWinners_dropped = WSWinners.drop('WSWin', 1)
 print WSWinners_dropped.to_html(index = False)
 
-# Who had the most hits in a given season?
-player_most_hits =  pd.read_sql_query("SELECT t.name as 'Team', m.nameLast as 'Last Name', m.nameFirst as 'First Name', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.teamID = t.teamID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
-                                      , baseball_con)
-
-print player_most_hits.to_html(index = False)
-
 # Who were the AL and NL winners for each year?
 division_win_AL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', divID as 'Division' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'AL' GROUP BY yearID"
                                      , baseball_con)
