@@ -107,3 +107,28 @@ most_hits = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(H) a
                               , baseball_con)
 
 print most_hits.to_html(index = False)
+
+#Correlation query
+avg_table = pd.read_sql("SELECT name as Team, franchID, AVG(H) as 'Average Hits', AVG(R) as 'Average Runs', AVG(FP) as 'Average Fielding %', AVG(RA) AS 'Average Runs Allowed',
+                        "AVG(SHO) AS 'Average Shutouts', AVG(ERA) AS 'Average ERA', AVG(W) AS 'Average Wins', AVG(L) AS 'Average Losses' "
+                        "FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY franchID ORDER BY Team"
+                        , baseball_con)
+print avg_table.head().to_html(index = False)
+
+avg_table['Win-Loss Ratio'] = avg_table['Average Wins']/avg_table['Average Losses']
+avg_table
+
+#hits plot
+sns.regplot(avg_table['Win-Loss Ratio'], avg_table['Average Hits'], ci = None)
+sns.plt.title('Average Hits vs Win-Loss Ratio')
+plt.show()
+
+#Average Fielding(Defense) %
+sns.regplot(avg_table['Win-Loss Ratio'], avg_table['Average Fielding %'], ci = None)
+sns.plt.title('Average Fielding Percentage vs Win-Loss Ratio')
+plt.show()
+
+#Average Number of Shutouts(Pitching) per season:
+sns.regplot(avg_table['Win-Loss Ratio'], avg_table['Average Shutouts'], ci = None)
+sns.plt.title('Average Number of Shutouts vs Win-Loss Ratio')
+plt.show()

@@ -617,4 +617,97 @@ Another way to check if a team has good offense is by the number of bases they w
 
 <img src="img/teams-most-shoutout.png">
 
+<h3>Averaging Over 10 Years of Data</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team</th>
+      <th>franchID</th>
+      <th>Average Hits</th>
+      <th>Average Runs</th>
+      <th>Average Fielding %</th>
+      <th>Average Runs Allowed</th>
+      <th>Average Shutouts</th>
+      <th>Average ERA</th>
+      <th>Average Wins</th>
+      <th>Average Losses</th>
+      <th>Win-Loss Ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arizona Diamondbacks</td>
+      <td>ARI</td>
+      <td>1409.9</td>
+      <td>712.3</td>
+      <td>0.9837</td>
+      <td>734.4</td>
+      <td>8.9</td>
+      <td>4.177</td>
+      <td>78.2</td>
+      <td>83.8</td>
+      <td>0.933174</td>
+    </tr>
+    <tr>
+      <td>Atlanta Braves</td>
+      <td>ATL</td>
+      <td>1417.3</td>
+      <td>706.0</td>
+      <td>0.9845</td>
+      <td>669.6</td>
+      <td>10.5</td>
+      <td>3.817</td>
+      <td>83.7</td>
+      <td>78.3</td>
+      <td>1.068966</td>
+    </tr>
+    <tr>
+      <td>Baltimore Orioles</td>
+      <td>BAL</td>
+      <td>1459.2</td>
+      <td>724.3</td>
+      <td>0.9849</td>
+      <td>785.7</td>
+      <td>7.8</td>
+      <td>4.586</td>
+      <td>76.1</td>
+      <td>85.8</td>
+      <td>0.886946</td>
+    </tr>
+    <tr>
+      <td>Boston Red Sox</td>
+      <td>BOS</td>
+      <td>1511.7</td>
+      <td>806.6</td>
+      <td>0.9853</td>
+      <td>732.3</td>
+      <td>9.7</td>
+      <td>4.227</td>
+      <td>86.6</td>
+      <td>75.4</td>
+      <td>1.148541</td>
+    </tr>
+    <tr>
+      <td>Chicago Cubs</td>
+      <td>CHC</td>
+      <td>1407.3</td>
+      <td>688.7</td>
+      <td>0.9819</td>
+      <td>715.3</td>
+      <td>9.9</td>
+      <td>4.078</td>
+      <td>77.4</td>
+      <td>84.4</td>
+      <td>0.917062</td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="img/avg-hits-vs-win-loss-ratio.png">
+
+<img src="img/avg-fielding-vs-win-loss.png">
+
+<img src="img/avg-num-shut-vs-win.png">
+
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
