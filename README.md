@@ -543,6 +543,7 @@ Another way to check if a team has good offense is by the number of bases they w
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
+      <th>Team</th>
       <th>Last Name</th>
       <th>First Name</th>
       <th>Year</th>
@@ -551,66 +552,78 @@ Another way to check if a team has good offense is by the number of bases they w
   </thead>
   <tbody>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2006</td>
       <td>224</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2007</td>
       <td>238</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Pedroia</td>
       <td>Dustin</td>
       <td>2008</td>
       <td>213</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2009</td>
       <td>225</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2010</td>
       <td>214</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Gonzalez</td>
       <td>Adrian</td>
       <td>2011</td>
       <td>213</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Jeter</td>
       <td>Derek</td>
       <td>2012</td>
       <td>216</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Beltre</td>
       <td>Adrian</td>
       <td>2013</td>
       <td>199</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Altuve</td>
       <td>Jose</td>
       <td>2014</td>
       <td>225</td>
     </tr>
     <tr>
+      <td>Baltimore Orioles</td>
       <td>Gordon</td>
       <td>Dee</td>
       <td>2015</td>
       <td>205</td>
     </tr>
   </tbody>
+</table>
+
 </table>
 
 <h3>Find the 20 best hitters in all of baseball.</h3>

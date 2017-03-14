@@ -4,6 +4,7 @@
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,32 +37,32 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+            <state relative-caret-position="227">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-                <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-                <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-                <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-                <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-                <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-                <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-                <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-                <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-                <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-                <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-                <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-                <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-                <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-                <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-                <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-                <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-                <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-                <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-                <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-                <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-                <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+                <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+                <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+                <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+                <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+                <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+                <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+                <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+                <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+                <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+                <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+                <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+                <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+                <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+                <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+                <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+                <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+                <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+                <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+                <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+                <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+                <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+                <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
               </folding>
             </state>
           </provider>
@@ -71,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29240">
-              <caret line="1741" column="133" lean-forward="false" selection-start-line="1741" selection-start-column="133" selection-end-line="1741" selection-end-column="133" />
+              <caret line="1754" column="133" lean-forward="false" selection-start-line="1754" selection-start-column="133" selection-end-line="1754" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -801,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489280225776</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Added analysis for first 5 questions">
+      <created>1489459942679</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1489459942679</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -844,7 +852,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed &quot;Hi&quot;" />
     <MESSAGE value="Added new queries and website title" />
     <MESSAGE value="Playing around with layout and README" />
     <MESSAGE value="Added WS Winners Table" />
@@ -869,7 +876,8 @@
     <MESSAGE value="Moved some questions and able around so questions appear more related" />
     <MESSAGE value="Organized the questions" />
     <MESSAGE value="Edit column names on queries and added tables to README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit column names on queries and added tables to README" />
+    <MESSAGE value="Added analysis for first 5 questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added analysis for first 5 questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,28 +892,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -932,28 +940,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -972,28 +980,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1012,69 +1020,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1094,28 +1061,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1135,28 +1102,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1176,28 +1143,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1217,28 +1184,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1258,28 +1225,69 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1299,28 +1307,28 @@
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1340,28 +1348,28 @@
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1381,28 +1389,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1422,28 +1430,28 @@
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1463,28 +1471,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1505,28 +1513,28 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
@@ -1545,39 +1553,39 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29240">
-          <caret line="1741" column="133" lean-forward="false" selection-start-line="1741" selection-start-column="133" selection-end-line="1741" selection-end-column="133" />
+          <caret line="1754" column="133" lean-forward="false" selection-start-line="1754" selection-start-column="133" selection-end-line="1754" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        <state relative-caret-position="227">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1489280160211" expanded="true" signature="238:398" ph="SELECT name Teams" />
-            <marker date="1489280160211" expanded="true" signature="624:899" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="1089:1216" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1089:1248" ph="SELECT DivWi... Teams" />
-            <marker date="1489280160211" expanded="true" signature="1341:1500" ph="SELECT yearI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2089:2240" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="2617:2768" ph="SELECT teamI... Teams" />
-            <marker date="1489280160211" expanded="true" signature="3132:3515" ph="SELECT t.div... Batting" />
-            <marker date="1489280160211" expanded="true" signature="3833:4208" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4346" ph="SELECT playe... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4339:4714" ph="SELECT m.nam... Batting" />
-            <marker date="1489280160211" expanded="true" signature="4913:5051" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5235" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5220:5354" ph="SELECT MAX(S... Teams" />
-            <marker date="1489280160211" expanded="true" signature="5540:5547" ph="SELECT MAX(H... Batting" />
-            <marker date="1489280160211" expanded="true" signature="5540:5833" ph="SELECT b.yea... Batting" />
-            <marker date="1489280160211" expanded="true" signature="6069:6372" ph="SELECT * FRO... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6069:6379" ph="SELECT , MAX... " />
-            <marker date="1489280160211" expanded="true" signature="6134:6314" ph="SELECT playe... " />
-            <marker date="1489280160211" expanded="true" signature="6468:6778" ph="SELECT t.pla... playerID" />
-            <marker date="1489280160211" expanded="true" signature="6533:6713" ph="SELECT playe... FieldingPost" />
-            <marker date="1489280160211" expanded="true" signature="6923:7053" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="238:398" ph="SELECT name Teams" />
+            <marker date="1489460111445" expanded="true" signature="624:917" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="1107:1234" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1107:1266" ph="SELECT DivWi... Teams" />
+            <marker date="1489460111445" expanded="true" signature="1359:1518" ph="SELECT yearI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2107:2258" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="2635:2786" ph="SELECT teamI... Teams" />
+            <marker date="1489460111445" expanded="true" signature="3150:3533" ph="SELECT t.div... Batting" />
+            <marker date="1489460111445" expanded="true" signature="3851:4226" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4364" ph="SELECT playe... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4357:4732" ph="SELECT m.nam... Batting" />
+            <marker date="1489460111445" expanded="true" signature="4931:5069" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5253" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5238:5372" ph="SELECT MAX(S... Teams" />
+            <marker date="1489460111445" expanded="true" signature="5558:5565" ph="SELECT MAX(H... Batting" />
+            <marker date="1489460111445" expanded="true" signature="5558:5851" ph="SELECT b.yea... Batting" />
+            <marker date="1489460111445" expanded="true" signature="6087:6390" ph="SELECT * FRO... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6087:6397" ph="SELECT , MAX... " />
+            <marker date="1489460111445" expanded="true" signature="6152:6332" ph="SELECT playe... " />
+            <marker date="1489460111445" expanded="true" signature="6486:6796" ph="SELECT t.pla... playerID" />
+            <marker date="1489460111445" expanded="true" signature="6551:6731" ph="SELECT playe... FieldingPost" />
+            <marker date="1489460111445" expanded="true" signature="6941:7071" ph="SELECT name Teams" />
           </folding>
         </state>
       </provider>
