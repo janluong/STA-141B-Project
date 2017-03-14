@@ -551,78 +551,76 @@ Another way to check if a team has good offense is by the number of bases they w
   </thead>
   <tbody>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Seattle Mariners</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2006</td>
       <td>224</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Seattle Mariners</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2007</td>
       <td>238</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Boston Americans</td>
       <td>Pedroia</td>
       <td>Dustin</td>
       <td>2008</td>
       <td>213</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Seattle Mariners</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2009</td>
       <td>225</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Seattle Mariners</td>
       <td>Suzuki</td>
       <td>Ichiro</td>
       <td>2010</td>
       <td>214</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Boston Americans</td>
       <td>Gonzalez</td>
       <td>Adrian</td>
       <td>2011</td>
       <td>213</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>New York Highlanders</td>
       <td>Jeter</td>
       <td>Derek</td>
       <td>2012</td>
       <td>216</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Texas Rangers</td>
       <td>Beltre</td>
       <td>Adrian</td>
       <td>2013</td>
       <td>199</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Houston Astros</td>
       <td>Altuve</td>
       <td>Jose</td>
       <td>2014</td>
       <td>225</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Miami Marlins</td>
       <td>Gordon</td>
       <td>Dee</td>
       <td>2015</td>
       <td>205</td>
     </tr>
   </tbody>
-</table>
-
 </table>
 
 <h3>Find the 20 best hitters in all of baseball.</h3>
@@ -824,404 +822,6 @@ Another way to check if a team has good offense is by the number of bases they w
 </table>
 
 <img src="img/home-c-top-20-hitters.png">
-
-<h3>Find the ball-strike count for 20 best and 20 worst hitters.</h3>
-
-Top 20 best hitters ball-strike count are:
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>nameLast</th>
-      <th>nameFirst</th>
-      <th>Team</th>
-      <th>Year</th>
-      <th>Strike Outs</th>
-      <th>Hits</th>
-      <th>Percentage of Strike Outs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Reynolds</td>
-      <td>Mark</td>
-      <td>Arizona Diamondbacks</td>
-      <td>2009</td>
-      <td>223</td>
-      <td>150</td>
-      <td>0.597855</td>
-    </tr>
-    <tr>
-      <td>Dunn</td>
-      <td>Adam</td>
-      <td>Chicago White Sox</td>
-      <td>2012</td>
-      <td>222</td>
-      <td>110</td>
-      <td>0.668675</td>
-    </tr>
-    <tr>
-      <td>Carter</td>
-      <td>Chris</td>
-      <td>Houston Astros</td>
-      <td>2013</td>
-      <td>212</td>
-      <td>113</td>
-      <td>0.652308</td>
-    </tr>
-    <tr>
-      <td>Davis</td>
-      <td>Chris</td>
-      <td>Baltimore Orioles</td>
-      <td>2015</td>
-      <td>208</td>
-      <td>150</td>
-      <td>0.581006</td>
-    </tr>
-    <tr>
-      <td>Stubbs</td>
-      <td>Drew</td>
-      <td>Cincinnati Redlegs</td>
-      <td>2011</td>
-      <td>205</td>
-      <td>147</td>
-      <td>0.582386</td>
-    </tr>
-    <tr>
-      <td>Bryant</td>
-      <td>Kris</td>
-      <td>Chicago Colts</td>
-      <td>2015</td>
-      <td>199</td>
-      <td>154</td>
-      <td>0.563739</td>
-    </tr>
-    <tr>
-      <td>Howard</td>
-      <td>Ryan</td>
-      <td>Philadelphia Blue Jays</td>
-      <td>2007</td>
-      <td>199</td>
-      <td>142</td>
-      <td>0.583578</td>
-    </tr>
-    <tr>
-      <td>Cust</td>
-      <td>Jack</td>
-      <td>Oakland Athletics</td>
-      <td>2008</td>
-      <td>197</td>
-      <td>111</td>
-      <td>0.639610</td>
-    </tr>
-    <tr>
-      <td>Granderson</td>
-      <td>Curtis</td>
-      <td>New York Highlanders</td>
-      <td>2012</td>
-      <td>195</td>
-      <td>138</td>
-      <td>0.585586</td>
-    </tr>
-    <tr>
-      <td>Espinosa</td>
-      <td>Danny</td>
-      <td>Washington Nationals</td>
-      <td>2012</td>
-      <td>189</td>
-      <td>147</td>
-      <td>0.562500</td>
-    </tr>
-    <tr>
-      <td>Desmond</td>
-      <td>Ian</td>
-      <td>Washington Nationals</td>
-      <td>2015</td>
-      <td>187</td>
-      <td>136</td>
-      <td>0.578947</td>
-    </tr>
-    <tr>
-      <td>Napoli</td>
-      <td>Mike</td>
-      <td>Boston Americans</td>
-      <td>2013</td>
-      <td>187</td>
-      <td>129</td>
-      <td>0.591772</td>
-    </tr>
-    <tr>
-      <td>Alvarez</td>
-      <td>Pedro</td>
-      <td>Pittsburg Alleghenys</td>
-      <td>2013</td>
-      <td>186</td>
-      <td>130</td>
-      <td>0.588608</td>
-    </tr>
-    <tr>
-      <td>Bruce</td>
-      <td>Jay</td>
-      <td>Cincinnati Redlegs</td>
-      <td>2013</td>
-      <td>185</td>
-      <td>164</td>
-      <td>0.530086</td>
-    </tr>
-    <tr>
-      <td>Byrd</td>
-      <td>Marlon</td>
-      <td>Philadelphia Blue Jays</td>
-      <td>2014</td>
-      <td>185</td>
-      <td>156</td>
-      <td>0.542522</td>
-    </tr>
-    <tr>
-      <td>Trout</td>
-      <td>Mike</td>
-      <td>Los Angeles Angels</td>
-      <td>2014</td>
-      <td>184</td>
-      <td>173</td>
-      <td>0.515406</td>
-    </tr>
-    <tr>
-      <td>Trumbo</td>
-      <td>Mark</td>
-      <td>Los Angeles Angels</td>
-      <td>2013</td>
-      <td>184</td>
-      <td>145</td>
-      <td>0.559271</td>
-    </tr>
-    <tr>
-      <td>Weeks</td>
-      <td>Rickie</td>
-      <td>Milwaukee Brewers</td>
-      <td>2010</td>
-      <td>184</td>
-      <td>175</td>
-      <td>0.512535</td>
-    </tr>
-    <tr>
-      <td>Pena</td>
-      <td>Carlos</td>
-      <td>Tampa Bay Devil Rays</td>
-      <td>2012</td>
-      <td>182</td>
-      <td>98</td>
-      <td>0.650000</td>
-    </tr>
-    <tr>
-      <td>Jackson</td>
-      <td>Austin</td>
-      <td>Detroit Tigers</td>
-      <td>2011</td>
-      <td>181</td>
-      <td>147</td>
-      <td>0.551829</td>
-    </tr>
-  </tbody>
-</table>
-
-Top 20 worst hitters ball-strike count are:
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>nameLast</th>
-      <th>nameFirst</th>
-      <th>Team</th>
-      <th>Year</th>
-      <th>Strike Outs</th>
-      <th>Hits</th>
-      <th>Percentage of Strike Outs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bryant</td>
-      <td>Kris</td>
-      <td>Chicago Colts</td>
-      <td>2015</td>
-      <td>199</td>
-      <td>154</td>
-      <td>0.563739</td>
-    </tr>
-    <tr>
-      <td>Russell</td>
-      <td>Addison</td>
-      <td>Chicago Colts</td>
-      <td>2015</td>
-      <td>149</td>
-      <td>115</td>
-      <td>0.564394</td>
-    </tr>
-    <tr>
-      <td>Abreu</td>
-      <td>Jose</td>
-      <td>Chicago White Sox</td>
-      <td>2014</td>
-      <td>131</td>
-      <td>176</td>
-      <td>0.426710</td>
-    </tr>
-    <tr>
-      <td>Herrera</td>
-      <td>Odubel</td>
-      <td>Philadelphia Blue Jays</td>
-      <td>2015</td>
-      <td>129</td>
-      <td>147</td>
-      <td>0.467391</td>
-    </tr>
-    <tr>
-      <td>Sano</td>
-      <td>Miguel</td>
-      <td>Minnesota Twins</td>
-      <td>2015</td>
-      <td>119</td>
-      <td>75</td>
-      <td>0.613402</td>
-    </tr>
-    <tr>
-      <td>Rosario</td>
-      <td>Eddie</td>
-      <td>Minnesota Twins</td>
-      <td>2015</td>
-      <td>118</td>
-      <td>121</td>
-      <td>0.493724</td>
-    </tr>
-    <tr>
-      <td>Sosa</td>
-      <td>Sammy</td>
-      <td>Texas Rangers</td>
-      <td>2007</td>
-      <td>112</td>
-      <td>104</td>
-      <td>0.518519</td>
-    </tr>
-    <tr>
-      <td>Tomas</td>
-      <td>Yasmany</td>
-      <td>Arizona Diamondbacks</td>
-      <td>2015</td>
-      <td>110</td>
-      <td>111</td>
-      <td>0.497738</td>
-    </tr>
-    <tr>
-      <td>Springer</td>
-      <td>George</td>
-      <td>Houston Astros</td>
-      <td>2015</td>
-      <td>109</td>
-      <td>107</td>
-      <td>0.504630</td>
-    </tr>
-    <tr>
-      <td>Dye</td>
-      <td>Jermaine</td>
-      <td>Chicago White Sox</td>
-      <td>2008</td>
-      <td>104</td>
-      <td>172</td>
-      <td>0.376812</td>
-    </tr>
-    <tr>
-      <td>DeShields</td>
-      <td>Delino</td>
-      <td>Texas Rangers</td>
-      <td>2015</td>
-      <td>101</td>
-      <td>111</td>
-      <td>0.476415</td>
-    </tr>
-    <tr>
-      <td>Gyorko</td>
-      <td>Jedd</td>
-      <td>San Diego Padres</td>
-      <td>2014</td>
-      <td>100</td>
-      <td>84</td>
-      <td>0.543478</td>
-    </tr>
-    <tr>
-      <td>Kang</td>
-      <td>Jung Ho</td>
-      <td>Pittsburg Alleghenys</td>
-      <td>2015</td>
-      <td>99</td>
-      <td>121</td>
-      <td>0.450000</td>
-    </tr>
-    <tr>
-      <td>Canha</td>
-      <td>Mark</td>
-      <td>Oakland Athletics</td>
-      <td>2015</td>
-      <td>96</td>
-      <td>112</td>
-      <td>0.461538</td>
-    </tr>
-    <tr>
-      <td>Howard</td>
-      <td>Ryan</td>
-      <td>Philadelphia Blue Jays</td>
-      <td>2013</td>
-      <td>95</td>
-      <td>76</td>
-      <td>0.555556</td>
-    </tr>
-    <tr>
-      <td>Stanton</td>
-      <td>Giancarlo</td>
-      <td>Miami Marlins</td>
-      <td>2015</td>
-      <td>95</td>
-      <td>74</td>
-      <td>0.562130</td>
-    </tr>
-    <tr>
-      <td>Harper</td>
-      <td>Bryce</td>
-      <td>Washington Nationals</td>
-      <td>2013</td>
-      <td>94</td>
-      <td>116</td>
-      <td>0.447619</td>
-    </tr>
-    <tr>
-      <td>Hunter</td>
-      <td>Torii</td>
-      <td>Detroit Tigers</td>
-      <td>2014</td>
-      <td>89</td>
-      <td>157</td>
-      <td>0.361789</td>
-    </tr>
-    <tr>
-      <td>Lagares</td>
-      <td>Juan</td>
-      <td>New York Mets</td>
-      <td>2014</td>
-      <td>87</td>
-      <td>117</td>
-      <td>0.426471</td>
-    </tr>
-    <tr>
-      <td>Biggio</td>
-      <td>Craig</td>
-      <td>Houston Astros</td>
-      <td>2006</td>
-      <td>84</td>
-      <td>135</td>
-      <td>0.383562</td>
-    </tr>
-  </tbody>
-</table>
 
 For 20 hitters, find the maximum and minimum ball-strike count.
 

@@ -14,7 +14,7 @@ WSWinners_dropped = WSWinners.drop('WSWin', 1)
 print WSWinners_dropped.to_html(index = False)
 
 # Who had the most hits in a given season?
-player_most_hits =  pd.read_sql_query("SELECT t.name as 'Team', m.nameLast as 'Last Name', m.nameFirst as 'First Name', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.yearID = t.yearID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
+player_most_hits =  pd.read_sql_query("SELECT t.name as 'Team', m.nameLast as 'Last Name', m.nameFirst as 'First Name', b.yearID as 'Year', MAX(b.H) as 'Number of Hits' from Batting b LEFT JOIN Master m ON b.playerID = m.playerID LEFT JOIN Teams t ON b.teamID = t.teamID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.yearID"
                                       , baseball_con)
 
 print player_most_hits.to_html(index = False)
@@ -69,18 +69,6 @@ print best_20_hitters.to_html(index = False)
 
 sns.countplot(x = "Home Country", data = best_20_hitters)
 plt.show()
-
-# For 20 hitters, find the max and min ball-strike count.
-# Find the percentage of fastballs for each player.
-most_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MAX(b.SO) as 'Strike Outs', b.H as 'Hits', (MAX(b.SO) * 1.0) / (MAX(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
-                                    , baseball_con)
-
-print most_strike_out(index = False)
-
-least_strike_out = pd.read_sql_query("SELECT m.nameLast, m.nameFirst, t.name as 'Team', b.yearID as 'Year', MIN(b.SO) as 'Strike Outs', b.H as 'Hits', (MIN(b.SO) * 1.0) / (MIN(b.SO) + b.H) as 'Percentage of Strike Outs' FROM Batting b LEFT JOIN Teams t ON b.teamID = t.teamID LEFT JOIN Master m ON b.playerID = m.playerID WHERE (b.yearID > 2005 AND b.yearID < 2016) GROUP BY b.playerID ORDER BY b.SO DESC LIMIT 20"
-                                     , baseball_con)
-
-print least_strike_out.to_html(index = False)
 
 # Which teams had the most amount of stolen bases for each season?
 most_SB = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(SB) as '# of Stolen Bases' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
