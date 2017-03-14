@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="622">
               <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -462,13 +462,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486358684481</updated>
     </task>
-    <task id="LOCAL-00014" summary="Playing around with layout and README">
-      <created>1488763736177</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1488763736177</updated>
-    </task>
     <task id="LOCAL-00015" summary="Playing around with layout and README">
       <created>1488763809511</created>
       <option name="number" value="00015" />
@@ -805,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489532019564</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Changed title of page">
+      <created>1489532108533</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1489532108533</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView">
@@ -848,7 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added an image" />
     <MESSAGE value="Edit a querie" />
     <MESSAGE value="Added Sierra's code" />
     <MESSAGE value="Added header to README" />
@@ -873,7 +872,8 @@
     <MESSAGE value="Changed homerun query to runs" />
     <MESSAGE value="Edit table for runs" />
     <MESSAGE value="Removed a table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed a table" />
+    <MESSAGE value="Changed title of page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed title of page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1508,7 +1508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="622">
           <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />

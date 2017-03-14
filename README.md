@@ -6,7 +6,7 @@ Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyz
 
 <h3>World Series Winners over the last 10 years</h3>
 
-Here are the World Series Winners from 2006 to 2015 along with their number of runs and homeruns:
+Here are the World Series Winners from 2006 to 2015 along with their number of runs:
 
 <table border="1" class="dataframe">
   <thead>
@@ -221,7 +221,7 @@ The National League winners were:
 
 In the above plots, it is shown that in the past 10 years, Central and East division teams have been the American League champions more often than the West division teams, with four wins each. On the other hand, the National League champion has been from the West division has won more than either the Central or East division teams, with four wins.
 
-<h3>Which team had the most and least home runs in a given season?</h3>
+<h3>Which team had the most and least runs in each season?</h3>
 
 Teams that have a strong offense tend to score a lot of runs. We expected the teams that had the most runs to win the World Series, or if not, to at least be playing in the world series. Comparing the information that we gathered in the previous questions against the table above, we can see that is often not true. Over the last ten years, the only time that the team with the most runs in a season was in 2009 when the New York Yankees beat the Philadelphia Phillies. 
 
@@ -355,7 +355,7 @@ Teams who had the least runs:
   </tbody>
 </table>
 
-Our expectation that the World Series teams would have the most runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of home runs that year. Over the last ten years, both of the teams mentioned above have had the least number of home runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places, such as having a good pitcher. 
+Our expectation that the World Series teams would have the most runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of runs that year. Over the last ten years, both of the teams mentioned above have had the least number of runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places, such as having a good pitcher. 
 
 <h3>Which teams had the most amount of stolen bases for each season?</h3>
 
