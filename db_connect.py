@@ -32,8 +32,8 @@ count_NL.set(xlabel='Divison', ylabel='Counts')
 sns.plt.title('NL Division Winners 2006 - 2015')
 plt.show()
 
-# Which team had the most and least home runs in a given season?
-max_R = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', R as 'Runs', MAX(R) as 'Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+# Which team had the most  runs in a given season?
+max_R = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(R) as 'Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
 print max_R.to_html(index = False)
 
