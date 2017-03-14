@@ -11,71 +11,71 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
+      <th>Year</th>
       <th>Team</th>
       <th>Runs</th>
-      <th>Year</th>
       <th>Total Hits</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>2006</td>
       <td>St. Louis Cardinals</td>
       <td>781</td>
-      <td>2006</td>
       <td>1484</td>
     </tr>
     <tr>
+      <td>2007</td>
       <td>Boston Red Sox</td>
       <td>867</td>
-      <td>2007</td>
       <td>1561</td>
     </tr>
     <tr>
+      <td>2008</td>
       <td>Philadelphia Phillies</td>
       <td>799</td>
-      <td>2008</td>
       <td>1407</td>
     </tr>
     <tr>
+      <td>2009</td>
       <td>New York Yankees</td>
       <td>915</td>
-      <td>2009</td>
       <td>1604</td>
     </tr>
     <tr>
+      <td>2010</td>
       <td>San Francisco Giants</td>
       <td>697</td>
-      <td>2010</td>
       <td>1411</td>
     </tr>
     <tr>
+      <td>2011</td>
       <td>St. Louis Cardinals</td>
       <td>762</td>
-      <td>2011</td>
       <td>1513</td>
     </tr>
     <tr>
+      <td>2012</td>
       <td>San Francisco Giants</td>
       <td>718</td>
-      <td>2012</td>
       <td>1495</td>
     </tr>
     <tr>
+      <td>2013</td>
       <td>Boston Red Sox</td>
       <td>853</td>
-      <td>2013</td>
       <td>1566</td>
     </tr>
     <tr>
+      <td>2014</td>
       <td>San Francisco Giants</td>
       <td>665</td>
-      <td>2014</td>
       <td>1407</td>
     </tr>
     <tr>
+      <td>2015</td>
       <td>Kansas City Royals</td>
       <td>724</td>
-      <td>2015</td>
       <td>1497</td>
     </tr>
   </tbody>
@@ -483,6 +483,70 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>2015</td>
       <td>Chicago Cubs</td>
       <td>1431</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Which teams had the most hits for each season?</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Year</th>
+      <th>Team</th>
+      <th># of Hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2006</td>
+      <td>Minnesota Twins</td>
+      <td>1608</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>New York Yankees</td>
+      <td>1656</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Texas Rangers</td>
+      <td>1619</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Los Angeles Angels of Anaheim</td>
+      <td>1604</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Texas Rangers</td>
+      <td>1556</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Boston Red Sox</td>
+      <td>1600</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Texas Rangers</td>
+      <td>1526</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Detroit Tigers</td>
+      <td>1625</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Detroit Tigers</td>
+      <td>1557</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Detroit Tigers</td>
+      <td>1515</td>
     </tr>
   </tbody>
 </table>

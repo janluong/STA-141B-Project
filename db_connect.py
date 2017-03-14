@@ -101,3 +101,9 @@ most_sho_plot = sns.FacetGrid(most_shutouts, hue = "Team", size = 8.5)
 most_sho_plot.map(plt.scatter, "Year", "Shutouts").add_legend()
 sns.plt.title('Teams with most Shutouts from 2006 to 2015')
 plt.show()
+
+#Which teams at the most number of hits each season?
+most_hits = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(H) as '# of Hits' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID"
+                              , baseball_con)
+
+print most_hits.to_html(index = False)
