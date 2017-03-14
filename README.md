@@ -223,9 +223,9 @@ In the above plots, it is shown that in the past 10 years, Central and East divi
 
 <h3>Which team had the most and least home runs in a given season?</h3>
 
-Teams that have a strong offense tend to score a lot of homeruns. We expected the teams that had the most home runs to win the World Series, or if not, to at least be playing in the world series. Comparing the information that we gathered in the previous questions against the table above, we can see that is often not true. Over the last ten years, the only time that the team with the most home runs in a season was in 2009 when the New York Yankees beat the Philadelphia Phillies. 
+Teams that have a strong offense tend to score a lot of runs. We expected the teams that had the most runs to win the World Series, or if not, to at least be playing in the world series. Comparing the information that we gathered in the previous questions against the table above, we can see that is often not true. Over the last ten years, the only time that the team with the most runs in a season was in 2009 when the New York Yankees beat the Philadelphia Phillies. 
 
-Teams who had the most homeruns:
+Teams who had the most runs:
 
 <table border="1" class="dataframe">
   <thead>
@@ -233,74 +233,74 @@ Teams who had the most homeruns:
       <th>Team</th>
       <th>Year</th>
       <th>Runs</th>
-      <th>Homeruns</th>
+      <th>Runs</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Chicago White Sox</td>
+      <td>New York Yankees</td>
       <td>2006</td>
-      <td>868</td>
-      <td>236</td>
+      <td>930</td>
+      <td>930</td>
     </tr>
     <tr>
-      <td>Milwaukee Brewers</td>
+      <td>New York Yankees</td>
       <td>2007</td>
-      <td>801</td>
-      <td>231</td>
+      <td>968</td>
+      <td>968</td>
     </tr>
     <tr>
-      <td>Chicago White Sox</td>
+      <td>Texas Rangers</td>
       <td>2008</td>
-      <td>811</td>
-      <td>235</td>
+      <td>901</td>
+      <td>901</td>
     </tr>
     <tr>
       <td>New York Yankees</td>
       <td>2009</td>
       <td>915</td>
-      <td>244</td>
+      <td>915</td>
     </tr>
     <tr>
-      <td>Toronto Blue Jays</td>
+      <td>New York Yankees</td>
       <td>2010</td>
-      <td>755</td>
-      <td>257</td>
+      <td>859</td>
+      <td>859</td>
     </tr>
     <tr>
-      <td>New York Yankees</td>
+      <td>Boston Red Sox</td>
       <td>2011</td>
-      <td>867</td>
-      <td>222</td>
+      <td>875</td>
+      <td>875</td>
     </tr>
     <tr>
-      <td>New York Yankees</td>
+      <td>Texas Rangers</td>
       <td>2012</td>
-      <td>804</td>
-      <td>245</td>
+      <td>808</td>
+      <td>808</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Boston Red Sox</td>
       <td>2013</td>
-      <td>745</td>
-      <td>212</td>
+      <td>853</td>
+      <td>853</td>
     </tr>
     <tr>
-      <td>Baltimore Orioles</td>
+      <td>Los Angeles Angels of Anaheim</td>
       <td>2014</td>
-      <td>705</td>
-      <td>211</td>
+      <td>773</td>
+      <td>773</td>
     </tr>
     <tr>
       <td>Toronto Blue Jays</td>
       <td>2015</td>
       <td>891</td>
-      <td>232</td>
+      <td>891</td>
     </tr>
   </tbody>
 </table>
 
-It is interesting to note though, that many of the teams that made the list of most number of home runs in a season were on it multiple times. The only team that was only on the list once was the Milwaukee Brewers in 2007.
+It is interesting to note though, that many of the teams that made the list of most number of runs in a season were on it multiple times. The only team that was only on the list once was the Milwaukee Brewers in 2007.
 
 <img src="img/Teams-most-homeruns.png">
 

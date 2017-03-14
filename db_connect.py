@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 
 # Who won the World Series for each year?
-WSWinners = pd.read_sql_query("SELECT name as 'Team', R as 'Runs', yearID as 'Year', SUM(H) as 'Total Hits' from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
+WSWinners = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', R as 'Runs', SUM(H) as 'Total Hits' from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
 
 print WSWinners.to_html(index = False)
@@ -33,9 +33,9 @@ sns.plt.title('NL Division Winners 2006 - 2015')
 plt.show()
 
 # Which team had the most and least home runs in a given season?
-max_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', R as 'Runs', MAX(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+max_R = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', R as 'Runs', MAX(R) as 'Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-print max_HR.to_html(index = False)
+print max_R.to_html(index = False)
 
 plt.rcParams['figure.figsize'] = (10, 10)
 sns.set(font_scale = 1.5)
