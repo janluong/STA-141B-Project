@@ -32,7 +32,7 @@ count_NL.set(xlabel='Divison', ylabel='Counts')
 sns.plt.title('NL Division Winners 2006 - 2015')
 plt.show()
 
-# Which team had the most  runs in a given season?
+# Which team had the most runs in a given season?
 max_R = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MAX(R) as 'Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
 print max_R.to_html(index = False)
@@ -45,9 +45,9 @@ most_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()
 sns.plt.title('Teams with most Homeruns from 2006 to 2015')
 plt.show()
 
-min_HR = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', R as 'Runs', MIN(HR) as 'Homeruns' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
+min_R = pd.read_sql_query("SELECT name as 'Team', yearID as 'Year', MIN(R) as 'Runs' FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY yearID LIMIT 10"
                            , baseball_con)
-#print min_HR.to_html(index = False)
+print min_R.to_html(index = False)
 
 min_HR_plot = sns.FacetGrid(min_HR, hue = "Team", size = 8.5)
 min_HR_plot.map(plt.scatter, "Year", "Homeruns").add_legend()

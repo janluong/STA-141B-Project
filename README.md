@@ -291,7 +291,7 @@ Teams who had the most runs:
 
 It is interesting to note though, that many of the teams that made the list of most number of runs in a season were on it multiple times. The only team that was only on the list once was the Milwaukee Brewers in 2007.
 
-Teams who had the least runs and homeruns:
+Teams who had the least runs:
 
 <table border="1" class="dataframe">
   <thead>
@@ -299,69 +299,58 @@ Teams who had the least runs and homeruns:
       <th>Team</th>
       <th>Year</th>
       <th>Runs</th>
-      <th>Homeruns</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Kansas City Royals</td>
+      <td>Tampa Bay Devil Rays</td>
       <td>2006</td>
-      <td>757</td>
-      <td>124</td>
+      <td>689</td>
     </tr>
     <tr>
-      <td>Kansas City Royals</td>
+      <td>Washington Nationals</td>
       <td>2007</td>
-      <td>706</td>
-      <td>102</td>
+      <td>673</td>
     </tr>
     <tr>
-      <td>San Francisco Giants</td>
+      <td>San Diego Padres</td>
       <td>2008</td>
-      <td>640</td>
-      <td>94</td>
+      <td>637</td>
     </tr>
     <tr>
-      <td>New York Mets</td>
+      <td>Pittsburgh Pirates</td>
       <td>2009</td>
-      <td>671</td>
-      <td>95</td>
+      <td>636</td>
     </tr>
     <tr>
       <td>Seattle Mariners</td>
       <td>2010</td>
       <td>513</td>
-      <td>101</td>
     </tr>
     <tr>
-      <td>San Diego Padres</td>
+      <td>Seattle Mariners</td>
       <td>2011</td>
-      <td>593</td>
-      <td>91</td>
+      <td>556</td>
     </tr>
     <tr>
-      <td>San Francisco Giants</td>
+      <td>Houston Astros</td>
       <td>2012</td>
-      <td>718</td>
-      <td>103</td>
+      <td>583</td>
     </tr>
     <tr>
       <td>Miami Marlins</td>
       <td>2013</td>
       <td>513</td>
-      <td>95</td>
     </tr>
     <tr>
-      <td>Kansas City Royals</td>
+      <td>San Diego Padres</td>
       <td>2014</td>
-      <td>651</td>
-      <td>95</td>
+      <td>535</td>
     </tr>
     <tr>
       <td>Atlanta Braves</td>
       <td>2015</td>
       <td>573</td>
-      <td>100</td>
     </tr>
   </tbody>
 </table>
