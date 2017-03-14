@@ -13,70 +13,70 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
     <tr style="text-align: right;">
       <th>Team</th>
       <th>Runs</th>
-      <th>Homeruns</th>
       <th>Year</th>
+      <th>Total Hits</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>St. Louis Cardinals</td>
       <td>781</td>
-      <td>184</td>
       <td>2006</td>
+      <td>1484</td>
     </tr>
     <tr>
       <td>Boston Red Sox</td>
       <td>867</td>
-      <td>166</td>
       <td>2007</td>
+      <td>1561</td>
     </tr>
     <tr>
       <td>Philadelphia Phillies</td>
       <td>799</td>
-      <td>214</td>
       <td>2008</td>
+      <td>1407</td>
     </tr>
     <tr>
       <td>New York Yankees</td>
       <td>915</td>
-      <td>244</td>
       <td>2009</td>
+      <td>1604</td>
     </tr>
     <tr>
       <td>San Francisco Giants</td>
       <td>697</td>
-      <td>162</td>
       <td>2010</td>
+      <td>1411</td>
     </tr>
     <tr>
       <td>St. Louis Cardinals</td>
       <td>762</td>
-      <td>162</td>
       <td>2011</td>
+      <td>1513</td>
     </tr>
     <tr>
       <td>San Francisco Giants</td>
       <td>718</td>
-      <td>103</td>
       <td>2012</td>
+      <td>1495</td>
     </tr>
     <tr>
       <td>Boston Red Sox</td>
       <td>853</td>
-      <td>178</td>
       <td>2013</td>
+      <td>1566</td>
     </tr>
     <tr>
       <td>San Francisco Giants</td>
       <td>665</td>
-      <td>132</td>
       <td>2014</td>
+      <td>1407</td>
     </tr>
     <tr>
       <td>Kansas City Royals</td>
       <td>724</td>
-      <td>139</td>
       <td>2015</td>
+      <td>1497</td>
     </tr>
   </tbody>
 </table>

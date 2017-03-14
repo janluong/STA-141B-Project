@@ -7,11 +7,10 @@ import matplotlib.pyplot as plt
 baseball_con = sqlite3.connect("data/lahman2015.sqlite")
 
 # Who won the World Series for each year?
-WSWinners = pd.read_sql_query("SELECT name as 'Team', R as 'Runs', HR as 'Homeruns', yearID as 'Year', WSWin from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
+WSWinners = pd.read_sql_query("SELECT name as 'Team', R as 'Runs', yearID as 'Year', SUM(H) as 'Total Hits' from Teams WHERE (yearID > 2005 AND yearID < 2016) AND WSWin = 'Y' GROUP BY yearID"
                               , baseball_con)
 
-WSWinners_dropped = WSWinners.drop('WSWin', 1)
-print WSWinners_dropped.to_html(index = False)
+print WSWinners.to_html(index = False)
 
 # Who were the AL and NL winners for each year?
 division_win_AL =  pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', divID as 'Division' FROM Teams WHERE LgWin = 'Y' AND (yearID > 2005 AND yearID < 2016) AND lgID = 'AL' GROUP BY yearID"
