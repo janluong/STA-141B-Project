@@ -233,7 +233,6 @@ Teams who had the most runs:
       <th>Team</th>
       <th>Year</th>
       <th>Runs</th>
-      <th>Runs</th>
     </tr>
   </thead>
   <tbody>
@@ -241,60 +240,50 @@ Teams who had the most runs:
       <td>New York Yankees</td>
       <td>2006</td>
       <td>930</td>
-      <td>930</td>
     </tr>
     <tr>
       <td>New York Yankees</td>
       <td>2007</td>
-      <td>968</td>
       <td>968</td>
     </tr>
     <tr>
       <td>Texas Rangers</td>
       <td>2008</td>
       <td>901</td>
-      <td>901</td>
     </tr>
     <tr>
       <td>New York Yankees</td>
       <td>2009</td>
-      <td>915</td>
       <td>915</td>
     </tr>
     <tr>
       <td>New York Yankees</td>
       <td>2010</td>
       <td>859</td>
-      <td>859</td>
     </tr>
     <tr>
       <td>Boston Red Sox</td>
       <td>2011</td>
-      <td>875</td>
       <td>875</td>
     </tr>
     <tr>
       <td>Texas Rangers</td>
       <td>2012</td>
       <td>808</td>
-      <td>808</td>
     </tr>
     <tr>
       <td>Boston Red Sox</td>
       <td>2013</td>
-      <td>853</td>
       <td>853</td>
     </tr>
     <tr>
       <td>Los Angeles Angels of Anaheim</td>
       <td>2014</td>
       <td>773</td>
-      <td>773</td>
     </tr>
     <tr>
       <td>Toronto Blue Jays</td>
       <td>2015</td>
-      <td>891</td>
       <td>891</td>
     </tr>
   </tbody>
@@ -304,7 +293,7 @@ It is interesting to note though, that many of the teams that made the list of m
 
 <img src="img/Teams-most-homeruns.png">
 
-Teams who had the least homeruns:
+Teams who had the least runs and homeruns:
 
 <table border="1" class="dataframe">
   <thead>

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="469">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -67,8 +67,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11373">
-              <caret line="669" column="133" lean-forward="false" selection-start-line="669" selection-start-column="133" selection-end-line="669" selection-end-column="133" />
+            <state relative-caret-position="11186">
+              <caret line="658" column="133" lean-forward="false" selection-start-line="658" selection-start-column="133" selection-end-line="658" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -462,13 +462,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486358684481</updated>
     </task>
-    <task id="LOCAL-00009" summary="Edit README">
-      <created>1488763223345</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1488763223345</updated>
-    </task>
     <task id="LOCAL-00010" summary="Edit README">
       <created>1488763290130</created>
       <option name="number" value="00010" />
@@ -805,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489531163755</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Edit table for runs">
+      <created>1489531377177</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1489531377177</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView">
@@ -848,7 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added table to README and edit queries" />
     <MESSAGE value="Added tables to README and edit queries" />
     <MESSAGE value="Added an image" />
     <MESSAGE value="Edit a querie" />
@@ -873,7 +872,8 @@
     <MESSAGE value="Took out a table that was not helpful in analysis" />
     <MESSAGE value="Edit WS Winners tables to have total hits instead of total homeruns" />
     <MESSAGE value="Changed homerun query to runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed homerun query to runs" />
+    <MESSAGE value="Edit table for runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit table for runs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1500,15 +1500,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11373">
-          <caret line="669" column="133" lean-forward="false" selection-start-line="669" selection-start-column="133" selection-end-line="669" selection-end-column="133" />
+        <state relative-caret-position="11186">
+          <caret line="658" column="133" lean-forward="false" selection-start-line="658" selection-start-column="133" selection-end-line="658" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="469">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
