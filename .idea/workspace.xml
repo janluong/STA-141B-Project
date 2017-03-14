@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -462,13 +462,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486358684481</updated>
     </task>
-    <task id="LOCAL-00013" summary="Playing around with layout and README">
-      <created>1488763686931</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1488763686931</updated>
-    </task>
     <task id="LOCAL-00014" summary="Playing around with layout and README">
       <created>1488763736177</created>
       <option name="number" value="00014" />
@@ -805,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489531945288</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Removed a table">
+      <created>1489532019564</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1489532019564</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView">
@@ -848,7 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tables to README and edit queries" />
     <MESSAGE value="Added an image" />
     <MESSAGE value="Edit a querie" />
     <MESSAGE value="Added Sierra's code" />
@@ -873,7 +872,8 @@
     <MESSAGE value="Edit WS Winners tables to have total hits instead of total homeruns" />
     <MESSAGE value="Changed homerun query to runs" />
     <MESSAGE value="Edit table for runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit table for runs" />
+    <MESSAGE value="Removed a table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed a table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
