@@ -4,6 +4,8 @@ Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyz
 
 <h2>Analyzing the Data</h2>
 
+<h3>World Series Winners over the last 10 years</h3>
+
 Here are the World Series Winners from 2006 to 2015 along with their number of runs and homeruns:
 
 <table border="1" class="dataframe">
@@ -79,7 +81,13 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
   </tbody>
 </table>
 
-<h3>Who were the American League winners for each year?</h3>
+The only team that has won three times in the last 10 years have been the San Francisco Giants. The St. Louis Cardinals and the Boston Red Sox have both won twice. And all of the other teams have won once. 
+
+Major league baseball is broken down into two leagues: American and National. Each league is then broken down again into three divisions based on location: west, central, and east. The World Series is played between the two teams that win their respective league.
+
+<h3>Who were the American League/National League winners for each year?</h3>
+
+The American League winners were:
 
 <table border="1" class="dataframe">
   <thead>
@@ -145,7 +153,7 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
 
 <img src="img/al-div-winners.png">
 
-<h3>Who were the National League winners for each year?</h3>
+The National League winners were:
 
 <table border="1" class="dataframe">
   <thead>
@@ -211,7 +219,11 @@ Here are the World Series Winners from 2006 to 2015 along with their number of r
 
 <img src="img/nl-div-winners.png">
 
+In the above plots, it is shown that in the past 10 years, Central and East division teams have been the American League champions more often than the West division teams, with four wins each. On the other hand, the National League champion has been from the West division has won more than either the Central or East division teams, with four wins.
+
 <h3>Which team had the most and least home runs in a given season?</h3>
+
+Teams that have a strong offense tend to score a lot of homeruns. We expected the teams that had the most home runs to win the World Series, or if not, to at least be playing in the world series. Comparing the information that we gathered in the previous questions against the table above, we can see that is often not true. Over the last ten years, the only time that the team with the most home runs in a season was in 2009 when the New York Yankees beat the Philadelphia Phillies. 
 
 Teams who had the most homeruns:
 
@@ -287,6 +299,8 @@ Teams who had the most homeruns:
     </tr>
   </tbody>
 </table>
+
+It is interesting to note though, that many of the teams that made the list of most number of home runs in a season were on it multiple times. The only team that was only on the list once was the Milwaukee Brewers in 2007.
 
 <img src="img/Teams-most-homeruns.png">
 
@@ -365,7 +379,10 @@ Teams who had the least homeruns:
   </tbody>
 </table>
 
-<img src="img/teams-least-homeruns.png">
+<img src="img/teams-least-homeruns.png"> 
+
+As it turns out, our expectation that the World Series teams would have the most home runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of home runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of home runs that year. Over the last ten years, both of the teams mentioned above have had the least number of home runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places. 
+
 
 <h3>Who were the top players who had the most homeruns each season?</h3>
 
@@ -453,6 +470,8 @@ Teams who had the least homeruns:
   </tbody>
 </table>
 
+Jose Bautista helped lead the Toronto Blue Jays to be the team with the most home runs in 2010. Chris Davis and Nelson Cruz of the Baltimore Orioles helped their teams in 2013 and 2014 respectively be the team that had the most homeruns in a given season. Those three years are the only cases within the last ten years of a team having the most home runs in a season that the player with the most homeruns was on their team. One would expect that the person who had the most homeruns in a season would be on the team that also had the most homeruns in a season. 
+
 <h3>Which teams had the most amount of stolen bases for each season?</h3>
 
 <table border="1" class="dataframe">
@@ -516,6 +535,8 @@ Teams who had the least homeruns:
     </tr>
   </tbody>
 </table>
+
+Another way to check if a team has good offense is by the number of bases they were able to steal. 
 
 <h3>Who had the most hits in a given season?</h3>
 
