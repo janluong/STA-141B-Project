@@ -109,14 +109,22 @@ most_hits = pd.read_sql_query("SELECT yearID as 'Year', name as 'Team', MAX(H) a
 print most_hits.to_html(index = False)
 
 #Correlation query
-avg_table = pd.read_sql("SELECT name as Team, franchID, AVG(H) as 'Average Hits', AVG(R) as 'Average Runs', AVG(FP) as 'Average Fielding %', AVG(RA) AS 'Average Runs Allowed',
-                        "AVG(SHO) AS 'Average Shutouts', AVG(ERA) AS 'Average ERA', AVG(W) AS 'Average Wins', AVG(L) AS 'Average Losses' "
+avg_table = pd.read_sql("SELECT name as Team, franchID, AVG(H) as 'Average Hits', AVG(R) as 'Average Runs', AVG(FP) as 'Average Fielding %', AVG(DP) AS 'Average Double Plays', "
+                        "AVG(SHO) AS 'Average Shutouts', AVG(HR) AS 'Average HR Allowed', AVG(W) AS 'Average Wins', AVG(L) AS 'Average Losses' "
                         "FROM Teams WHERE (yearID > 2005 AND yearID < 2016) GROUP BY franchID ORDER BY Team"
                         , baseball_con)
-print avg_table.head().to_html(index = False)
 
 avg_table['Win-Loss Ratio'] = avg_table['Average Wins']/avg_table['Average Losses']
 avg_table
+
+print avg_table.head().to_html(index = False)
+
+#Correlation matrix
+corr = avg_table.corr()
+sns.heatmap(corr,
+            xticklabels=corr.columns.values,
+            yticklabels=corr.columns.values)
+plt.show()
 
 #hits plot
 sns.regplot(avg_table['Win-Loss Ratio'], avg_table['Average Hits'], ci = None)

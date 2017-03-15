@@ -629,7 +629,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <th>Average Fielding %</th>
       <th>Average Runs Allowed</th>
       <th>Average Shutouts</th>
-      <th>Average ERA</th>
+      <th>Average HR Allowed</th>
       <th>Average Wins</th>
       <th>Average Losses</th>
       <th>Win-Loss Ratio</th>
@@ -644,7 +644,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>0.9837</td>
       <td>734.4</td>
       <td>8.9</td>
-      <td>4.177</td>
+      <td>158.2</td>
       <td>78.2</td>
       <td>83.8</td>
       <td>0.933174</td>
@@ -657,7 +657,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>0.9845</td>
       <td>669.6</td>
       <td>10.5</td>
-      <td>3.817</td>
+      <td>154.2</td>
       <td>83.7</td>
       <td>78.3</td>
       <td>1.068966</td>
@@ -670,7 +670,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>0.9849</td>
       <td>785.7</td>
       <td>7.8</td>
-      <td>4.586</td>
+      <td>181.6</td>
       <td>76.1</td>
       <td>85.8</td>
       <td>0.886946</td>
@@ -683,7 +683,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>0.9853</td>
       <td>732.3</td>
       <td>9.7</td>
-      <td>4.227</td>
+      <td>178.4</td>
       <td>86.6</td>
       <td>75.4</td>
       <td>1.148541</td>
@@ -696,7 +696,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>0.9819</td>
       <td>715.3</td>
       <td>9.9</td>
-      <td>4.078</td>
+      <td>159.6</td>
       <td>77.4</td>
       <td>84.4</td>
       <td>0.917062</td>
@@ -709,5 +709,7 @@ Another way to check if a team has good offense is by the number of bases they w
 <img src="img/avg-fielding-vs-win-loss.png">
 
 <img src="img/avg-num-shut-vs-win.png">
+
+<img src="img/correl-matrix.png">
 
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
