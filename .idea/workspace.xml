@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="New table and images of correlation&#10;">
+    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.py" afterPath="$PROJECT_DIR$/db_connect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+            <state relative-caret-position="316">
+              <caret line="124" column="44" lean-forward="true" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1489538239785" expanded="true" signature="238:290" ph="SELECT name Teams" />
@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9435">
-              <caret line="714" column="133" lean-forward="false" selection-start-line="714" selection-start-column="133" selection-end-line="714" selection-end-column="133" />
+              <caret line="715" column="133" lean-forward="false" selection-start-line="715" selection-start-column="133" selection-end-line="715" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -465,13 +465,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486358684481</updated>
     </task>
-    <task id="LOCAL-00018" summary="Playing around with layout and README">
-      <created>1488764020789</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1488764020789</updated>
-    </task>
     <task id="LOCAL-00019" summary="Playing around with layout and README">
       <created>1488764049163</created>
       <option name="number" value="00019" />
@@ -808,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489535761288</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="New table and images of correlation&#10;">
+      <created>1489542206557</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1489542206557</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1552,15 +1552,15 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9435">
-          <caret line="714" column="133" lean-forward="false" selection-start-line="714" selection-start-column="133" selection-end-line="714" selection-end-column="133" />
+          <caret line="715" column="133" lean-forward="false" selection-start-line="715" selection-start-column="133" selection-end-line="715" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        <state relative-caret-position="316">
+          <caret line="124" column="44" lean-forward="true" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1489538239785" expanded="true" signature="238:290" ph="SELECT name Teams" />

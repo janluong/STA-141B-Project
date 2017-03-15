@@ -712,4 +712,5 @@ Another way to check if a team has good offense is by the number of bases they w
 
 <img src="img/corrl-matrix.png">
 
+
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
