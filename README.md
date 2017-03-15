@@ -627,7 +627,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <th>Average Hits</th>
       <th>Average Runs</th>
       <th>Average Fielding %</th>
-      <th>Average Runs Allowed</th>
+      <th>Average Double Plays</th>
       <th>Average Shutouts</th>
       <th>Average HR Allowed</th>
       <th>Average Wins</th>
@@ -642,7 +642,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>1409.9</td>
       <td>712.3</td>
       <td>0.9837</td>
-      <td>734.4</td>
+      <td>145.6</td>
       <td>8.9</td>
       <td>158.2</td>
       <td>78.2</td>
@@ -655,7 +655,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>1417.3</td>
       <td>706.0</td>
       <td>0.9845</td>
-      <td>669.6</td>
+      <td>150.9</td>
       <td>10.5</td>
       <td>154.2</td>
       <td>83.7</td>
@@ -668,7 +668,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>1459.2</td>
       <td>724.3</td>
       <td>0.9849</td>
-      <td>785.7</td>
+      <td>153.1</td>
       <td>7.8</td>
       <td>181.6</td>
       <td>76.1</td>
@@ -681,7 +681,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>1511.7</td>
       <td>806.6</td>
       <td>0.9853</td>
-      <td>732.3</td>
+      <td>144.5</td>
       <td>9.7</td>
       <td>178.4</td>
       <td>86.6</td>
@@ -694,7 +694,7 @@ Another way to check if a team has good offense is by the number of bases they w
       <td>1407.3</td>
       <td>688.7</td>
       <td>0.9819</td>
-      <td>715.3</td>
+      <td>131.7</td>
       <td>9.9</td>
       <td>159.6</td>
       <td>77.4</td>
@@ -710,6 +710,6 @@ Another way to check if a team has good offense is by the number of bases they w
 
 <img src="img/avg-num-shut-vs-win.png">
 
-<img src="img/correl-matrix.png">
+<img src="img/corrl-matrix.png">
 
 Database downloaded from [jknecht baseball archive](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2015.sqlite)
