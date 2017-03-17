@@ -2,9 +2,18 @@
 
 Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyzed data from 2006 to 2016 because 2006 was the year after any names changes had happened (last name change was in 2005). We will primarily focus on the player’s and a little bit on team statistics (number of hits, pitches, etc...) so we can get an idea of how well a player and teams performs throughout the years and what kind of strategies are popular or successful among different teams.
 
+<h3>Contents</h3>
+[Analyzing the Data](https://github.com/janluong/STA-141B-Project#analyzing-the-data) <br>
+[World Series WInners Over the Last 10 Years](https://github.com/janluong/ <br>STA-141B-Project#world-series-winners-over-the-last-10-years)
+[Who were the American League/National League Winners for Each Year?](https://github.com/janluong/STA-141B-Project#who-were-the-american-leaguenational-league-winners-for-each-year) <br>
+[Which Team had the Most and Least Runs in Each Season?](https://github.com/janluong/STA-141B-Project#which-team-had-the-most-and-least-runs-in-each-season) <br>
+[Which Teams had the Most Amount of Stolen Bases for Each Season?](https://github.com/janluong/STA-141B-Project#which-teams-had-the-most-amount-of-stolen-bases-for-each-season) <br>
+[Which Team Pitched the Most Strike Outs for Each Season?](https://github.com/janluong/STA-141B-Project#which-team-pitched-the-most-strike-outs-for-each-season) <br>
+[Averaging Over 10 years of Data](https://github.com/janluong/STA-141B-Project#averaging-over-10-years-of-data) 
+
 <h2>Analyzing the Data</h2>
 
-<h3>World Series Winners over the last 10 years</h3>
+<h3>World Series WInners Over the Last 10 Years</h3>
 
 Here are the World Series Winners from 2006 to 2015 along with their number of runs:
 
@@ -85,7 +94,7 @@ The only team that has won three times in the last 10 years have been the San Fr
 
 Major league baseball is broken down into two leagues: American and National. Each league is then broken down again into three divisions based on location: west, central, and east. The World Series is played between the two teams that win their respective league.
 
-<h3>Who were the American League/National League winners for each year?</h3>
+<h3>Who were the American League/National League Winners for Each Year?</h3>
 
 The American League winners were:
 
@@ -221,7 +230,7 @@ The National League winners were:
 
 In the above plots, it is shown that in the past 10 years, Central and East division teams have been the American League champions more often than the West division teams, with four wins each. On the other hand, the National League champion has been from the West division has won more than either the Central or East division teams, with four wins.
 
-<h3>Which team had the most and least runs in each season?</h3>
+<h3>Which Team had the Most and Least Runs in Each Season?</h3>
 
 Teams that have a strong offense tend to score a lot of runs. We expected the teams that had the most runs to win the World Series, or if not, to at least be playing in the world series. Comparing the information that we gathered in the previous questions against the table above, we can see that is often not true. Over the last ten years, the only time that the team with the most runs in a season was in 2009 when the New York Yankees beat the Philadelphia Phillies. 
 
@@ -357,7 +366,7 @@ Teams who had the least runs:
 
 Our expectation that the World Series teams would have the most runs, turned out to be completely false. The 2012 World Series winner, the San Francisco Giants, had the LEAST number of runs in that season. In 2014, the Kansas City Royals played in the World Series but had the least number of runs that year. Over the last ten years, both of the teams mentioned above have had the least number of runs for multiple years. We assume that, since they are obviously not the worst teams, their strengths are found in other places, such as having a good pitcher. 
 
-<h3>Which teams had the most amount of stolen bases for each season?</h3>
+<h3>Which Teams had the Most Amount of Stolen Bases for Each Season?</h3>
 
 <table border="1" class="dataframe">
   <thead>
@@ -423,7 +432,7 @@ Our expectation that the World Series teams would have the most runs, turned out
 
 Another way to check if a team has good offense is by the number of bases they were able to steal. 
 
-<h3>What team pitched the most strike outs for each season?</h3>
+<h3>hich Team Pitched the Most Strike Outs for Each Season?</h3>
 
 <table border="1" class="dataframe">
   <thead>
