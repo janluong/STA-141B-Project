@@ -4,18 +4,12 @@ Janice Luong and Sierra Tevlin analyzed the Lahman 2015 baseball data. We analyz
 
 <h3>Contents</h3>
 
-[Analyzing the Data](#analyzing-the-data)
-
-[World Series WInners Over the Last 10 Years](#world-series-winners-over-the-last-10-years)
-
-[Who were the American League/National League Winners for Each Year?](#who-were-the-american-leaguenational-league-winners-for-each-year)
-
-[Which Team had the Most and Least Runs in Each Season?](#which-team-had-the-most-and-least-runs-in-each-season)
-
-[Which Teams had the Most Amount of Stolen Bases for Each Season?](#which-teams-had-the-most-amount-of-stolen-bases-for-each-season)
-
-[Which Team Pitched the Most Strike Outs for Each Season?](#which-team-pitched-the-most-strike-outs-for-each-season)
-
+[Analyzing the Data](#analyzing-the-data)  
+[World Series WInners Over the Last 10 Years](#world-series-winners-over-the-last-10-years)  
+[Who were the American League/National League Winners for Each Year?](#who-were-the-american-leaguenational-league-winners-for-each-year)  
+[Which Team had the Most and Least Runs in Each Season?](#which-team-had-the-most-and-least-runs-in-each-season)  
+[Which Teams had the Most Amount of Stolen Bases for Each Season?](#which-teams-had-the-most-amount-of-stolen-bases-for-each-season)  
+[Which Team Pitched the Most Strike Outs for Each Season?](#which-team-pitched-the-most-strike-outs-for-each-season)  
 [Averaging Over 10 years of Data](#averaging-over-10-years-of-data) 
 
 <h2>Analyzing the Data</h2>
