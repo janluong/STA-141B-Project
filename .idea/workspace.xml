@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="" />
+    <list default="true" id="853857d5-e3f4-4406-ae7e-802361e7a51d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12155">
-              <caret line="715" column="133" lean-forward="false" selection-start-line="715" selection-start-column="133" selection-end-line="715" selection-end-column="133" />
+              <caret line="725" column="133" lean-forward="false" selection-start-line="725" selection-start-column="133" selection-end-line="725" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -818,7 +820,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="31" width="1221" height="723" extended-state="0" />
+    <frame x="79" y="31" width="1221" height="723" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11701245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1549,7 +1551,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12155">
-          <caret line="715" column="133" lean-forward="false" selection-start-line="715" selection-start-column="133" selection-end-line="715" selection-end-column="133" />
+          <caret line="725" column="133" lean-forward="false" selection-start-line="725" selection-start-column="133" selection-end-line="725" selection-end-column="133" />
           <folding />
         </state>
       </provider>
